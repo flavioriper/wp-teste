@@ -27,7 +27,7 @@ Para colocar uma cópia local em execução, siga estas etapas de exemplo simple
 
 ### Pré-requisitos
 
-O projeto possuí dependencias e requisitos para rodar em sua máquina local, sendo necessário possuir PHP instalado ou servidor web local, recomendamos o <a href="https://laragon.org/download/index.html" target="_blank">Laragon</a> caso utilize windows e possuir o Composer em sua máquina
+O projeto possuí dependencias e requisitos para rodar em sua máquina local, sendo necessário possuir PHP instalado ou servidor web local, recomendamos o <a href="https://laragon.org/download/index.html" target="_blank">Laragon</a> caso utilize windows.
 
 
 
@@ -36,12 +36,13 @@ O projeto possuí dependencias e requisitos para rodar em sua máquina local, se
 
 1. Clone o repositório:
     ```sh
-   git clone https://github.com/yuppins/yuppins-wp.git
+   git clone https://github.com/yuppins/wp-module.git
    ```
 2. Mude o arquivo ```wp-config-sample.php``` para ```wp-config.php``` e edite o arquivo para adicionar as informações de banco.
 3. Atualize seu banco com o dump mais recente (solicite ao dev responsável pelo projeto caso não tenha).
 4. Atualize no banco as variáveis de ambiente do wordpress na tabela ```wp_options``` (geralmente ```siteurl``` e ```home```).
 5. Caso seja necessário, atualize também o path do projeto em ```wp-content/webp-express/config/```, arquivos: ```wod-options.json``` e ```config.json```
+6. O webp-express utiliza ```extension=gd``` para as imagens, é importante manter liberado no ```php.ini``` para melhor compatibilidade.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
