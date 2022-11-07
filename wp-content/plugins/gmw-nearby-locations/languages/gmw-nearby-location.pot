@@ -1,0 +1,386 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: GMW Add-on - Nearby Locations\n"
+"POT-Creation-Date: 2018-08-04 00:10+0300\n"
+"PO-Revision-Date: 2018-01-01 16:57-1000\n"
+"Last-Translator: Eyal Fitoussi <fitoussi_eyal@hotmail.com>\n"
+"Language-Team: Eyal Fitoussi <fitoussi_eyal@hotmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: gmw-nearby-locations.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/gmw-nearby-locations-functions.php:18
+msgid "Nearby locations"
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:19
+msgid "Widget title"
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:20
+msgid "Enter a title for the widget or leave blank to omit."
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:28
+msgid "Element ID"
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:29
+msgid ""
+"Use the element ID to assign a unique ID to this widget. The unique ID can "
+"be useful for styling purposes as well when using the hooks provided by the "
+"plugin when custom modifications required."
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:33
+msgid "user"
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:34
+msgid "Nearby Element"
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:35
+msgid "Enter \"user\" to display locations nearby the user's current location."
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:35
+msgid ""
+"Enter \"object\" to display locations nearby the item that is being "
+"displayed when viewing in a single template file."
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:35
+msgid ""
+"Enter object ID ( ex. post ID or member ID ) to display locations nearby a "
+"specific object."
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:35
+msgid ""
+"Enter coordinates ( latitude,longitude ) to display locations nearby "
+"specific coordinates."
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:40
+msgid "Results template"
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:47
+msgid "Select the results template."
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:52
+msgid "Number of locations"
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:53
+msgid "Enter the maximum number of location to display."
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:58
+msgid "Radius"
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:59
+msgid "Enter the radius to search nearby, or leave blank for no radius limit."
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:64
+msgid "Distance units"
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:66
+msgid "Miles"
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:67
+msgid "Kilometers"
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:73
+#: plugins/posts-locator/includes/gmw-nearby-posts-widget.php:72
+msgid "Order by"
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:79
+msgid "Order"
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:81
+msgid "Ascending ( ASC )"
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:82
+msgid "Descending ( DESC )"
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:88
+msgid "Show list of results"
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:89
+msgid "Show or hide the list of results."
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:94
+msgid "Show map"
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:95
+msgid "Show or hide Google map."
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:100
+msgid "Map width"
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:101
+msgid "Set the map width in pixels or percentage ( ex. 250px or 100% )."
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:106
+msgid "Map height"
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:107
+msgid "Set the map height in pixels or percentage ( ex. 250px or 100% )."
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:116
+msgid "Map type"
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:118
+msgid "ROADMAP"
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:119
+msgid "SATELLITE"
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:120
+msgid "HYBRID"
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:121
+msgid "TERRAIN"
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:143
+msgid "Markers Grouping"
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:145
+msgid "No grouping"
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:146
+msgid "Markers Clusterer"
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:148
+msgid "Select how to group nearby markers on the map."
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:153
+msgid "Map icon"
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:154
+msgid ""
+"URL of the image that you would like to use as the map icon that represents "
+"the object location on the map."
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:159
+msgid "Map icon size"
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:160
+#: includes/gmw-nearby-locations-functions.php:173
+msgid ""
+"Enter custom map icon size if needed ( when default size does not show "
+"properly ). Enter the width and height, comma separated. For example, enter "
+"25,41 for 25px width and 41px height."
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:161
+#: includes/gmw-nearby-locations-functions.php:174
+msgid "Icon size. For ex, 25,41"
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:166
+msgid "User location map icon"
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:167
+msgid ""
+"Link to the image that you would like to use as the map marker that "
+"represents the user's location on the map. Leave blank to disable."
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:172
+msgid "User's map icon size"
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:179
+msgid "Show Image"
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:180
+msgid ""
+"show/hide the object image in the list of results ( post featured image, "
+"user avatar...)."
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:185
+msgid "Show distance"
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:186
+msgid "Show the distance to each location in the list of results."
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:190
+msgid "Get directions"
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:191
+msgid "Show directions link"
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:192
+msgid ""
+"To show direction link for each location in the results, enter the label for "
+"the link in the input box. Otherwise, leave blank to omit."
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:197
+msgid "Address fields"
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:199
+msgid "Full address"
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:200
+msgid "Street"
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:201
+msgid "City"
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:202
+msgid "State"
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:203
+msgid "Postcode"
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:204
+msgid "Country"
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:206
+msgid ""
+"Choose the address fields to display. Choose \"Full address\" to display the "
+"full address, or choose any of the specific address fields."
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:211
+msgid "Show random locations"
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:212
+msgid "Show random locations if no locations were found nearby."
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:216
+msgid "No locations found"
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:217
+msgid "No results message"
+msgstr ""
+
+#: includes/gmw-nearby-locations-functions.php:218
+msgid ""
+"Enter the message to display when no results found. leave blank to omit the "
+"message."
+msgstr ""
+
+#: plugins/posts-locator/includes/gmw-nearby-posts-widget.php:40
+msgid "Display nearby posts."
+msgstr ""
+
+#: plugins/posts-locator/includes/gmw-nearby-posts-widget.php:41
+msgid "GEO my WP Nearby Posts"
+msgstr ""
+
+#: plugins/posts-locator/includes/gmw-nearby-posts-widget.php:49
+msgid "Post types"
+msgstr ""
+
+#: plugins/posts-locator/includes/gmw-nearby-posts-widget.php:51
+msgid "Choose of the post types that you would like to include."
+msgstr ""
+
+#: plugins/posts-locator/includes/gmw-nearby-posts-widget.php:56
+msgid "Include terms"
+msgstr ""
+
+#: plugins/posts-locator/includes/gmw-nearby-posts-widget.php:57
+msgid ""
+"Filter posts by including taxonomy terms ID. Enter terms ID, comma "
+"separated, of any existing taxonomy."
+msgstr ""
+
+#: plugins/posts-locator/includes/gmw-nearby-posts-widget.php:62
+msgid "Exclude terms"
+msgstr ""
+
+#: plugins/posts-locator/includes/gmw-nearby-posts-widget.php:63
+msgid ""
+"Filter posts by excluding taxonomy terms ID. Enter terms ID, comma "
+"separated, of any existing taxonomy."
+msgstr ""
+
+#: plugins/posts-locator/includes/gmw-nearby-posts-widget.php:74
+msgid "Distance"
+msgstr ""
+
+#: plugins/posts-locator/includes/gmw-nearby-posts-widget.php:75
+msgid "Post title"
+msgstr ""
+
+#: plugins/posts-locator/includes/gmw-nearby-posts-widget.php:76
+msgid "Post ID"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "GMW Add-on - Nearby Locations"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://www.geomywp.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Display nearby locations using shortcode and widget."
+msgstr ""

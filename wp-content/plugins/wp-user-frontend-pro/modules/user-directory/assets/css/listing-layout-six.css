@@ -1,0 +1,21 @@
+.wpuf-user-lists.square-4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+}
+.wpuf-user-lists.square-4 .wpuf-ud-user-details {
+    align-items: center;
+}
+
+.wpuf-user-lists.square-4 .inner {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    align-content: center;
+}
+p.wpuf-ud-user-view-details {
+    margin-top: 15px;
+}

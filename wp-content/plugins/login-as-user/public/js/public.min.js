@@ -1,0 +1,1 @@
+jQuery(function(t){"use strict";t(".w357-login-as-user-btn").bind("contextmenu",function(t){return alert("The right click is disabled. Please, just click on the button."),!1})});

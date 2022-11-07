@@ -1,0 +1,56 @@
+
+# BEGIN WebP Express
+# The rules below have been dynamically created by WebP Express in accordance with the plugin settings
+# DO NOT EDIT MANUALLY (unless you are prepared that your changes might be overridden by WebP Express)
+# The following parameters have been in play to produce the rules:
+#
+# WebP Express options:
+# - Operation mode: cdn-friendly
+# - Redirection to existing webp: disabled
+# - Redirection to converter: disabled
+# - Redirection to converter to create missing webp files upon request for the webp: enabled
+# - Destination folder: separate
+# - Destination extension: append
+# - Destination structure: doc-root
+# - Image types: jpeg, png
+# - Alter HTML enabled?: yes
+#
+# Wordpress/Server configuration:
+# - Document root availablity: Available and its "realpath" is available too. Can be used for structuring cache dir.
+#
+# .htaccess capability test results:
+# - mod_header working?: yes
+# - pass variable from .htaccess to script through header working?: no
+# - pass variable from .htaccess to script through environment variable working?: yes
+#
+# Role of the dir that this .htaccess is located in:
+# - Is this .htaccess in a dir containing source images?: no
+# - Is this .htaccess in a dir containing webp images?: yes
+
+
+# Rules for handling requests for webp images
+# ---------------------------------------------
+
+# WebP Realizer: Redirect non-existing webp images to webp-realizer.php, which will locate corresponding jpg/png, 
+# convert it, and deliver the freshly converted webp
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteRule ^/?(.+)\.(webp)$ /yuppins/wp-content/plugins/webp-express/wod/webp-realizer.php [E=DESTINATIONREL:yuppins/wp-content/webp-express/webp-images/$0,E=WPCONTENT:yuppins/wp-content,NC,L]
+
+</IfModule>
+
+# Set Cache-Control header for requests to webp images
+<IfModule mod_headers.c>
+  <FilesMatch "(?i)\.webp$">
+    Header set Cache-Control "public, max-age=604800"
+  </FilesMatch>
+</IfModule>
+
+
+# Register webp mime type 
+<IfModule mod_mime.c>
+  AddType image/webp .webp
+</IfModule>
+
+# END WebP Express

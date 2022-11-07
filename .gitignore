@@ -1,0 +1,16 @@
+*.bk
+*.log
+wp-config.php
+/.htaccess
+/app
+/wp-content/litespeed
+/wp-content/uploads/*
+/wp-content/updraft/*
+/wp-content/webp-express/webp-images/uploads/*
+/wp-content/webp-express/webp-images/doc-root/yuppins/wp-content/uploads/*
+/wp-content/webp-express/webp-images-bigger-than-source/uploads/*
+/wp-content/webp-express/webp-images-bigger-than-source/doc-root/yuppins/wp-content/uploads/*
+
+!/wp-content/uploads/.htaccess
+!/wp-content/webp-express/webp-images/uploads/.htaccess
+!/wp-content/webp-express/webp-images-bigger-than-source/uploads/.htaccess

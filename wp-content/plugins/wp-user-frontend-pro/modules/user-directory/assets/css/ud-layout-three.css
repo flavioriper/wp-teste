@@ -1,0 +1,19 @@
+.wpuf-user-lists.layout-three {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 15px;
+    row-gap: 15px;
+}
+.wpuf-ud-user-profile.layout-three {
+    max-width: 100% !important;
+    padding: 0px 15%;
+}
+.wpuf-ud-user-profile.layout-three .profile .profile-header {
+    height: 250px;
+}
+.layout-three .profile-bottom {
+    background: #FFF;
+}
+.layout-three .profile-details {
+    margin: 40px 70px 30px 30px;
+}

@@ -1,0 +1,137 @@
+{
+    "wod": {
+        "enable-logging": false,
+        "enable-redirection-to-converter": false,
+        "enable-redirection-to-webp-realizer": true,
+        "base-htaccess-on-these-capability-tests": {
+            "passThroughHeaderWorking": false,
+            "passThroughEnvWorking": true,
+            "modHeaderWorking": true,
+            "canRunTestScriptInWOD": true,
+            "canRunTestScriptInWOD2": true
+        },
+        "destination-extension": "append",
+        "destination-folder": "separate",
+        "forward-query-string": true,
+        "image-roots": [
+            {
+                "id": "uploads",
+                "rel-path": "yuppins/wp-content/uploads",
+                "url": "http://localhost/yuppins/wp-content/uploads"
+            },
+            {
+                "id": "themes",
+                "rel-path": "yuppins/wp-content/themes",
+                "url": "http://localhost/yuppins/wp-content/themes"
+            },
+            {
+                "id": "plugins",
+                "rel-path": "yuppins/wp-content/plugins",
+                "url": "http://localhost/yuppins/wp-content/plugins"
+            },
+            {
+                "id": "wp-content",
+                "rel-path": "yuppins/wp-content",
+                "url": "http://localhost/yuppins/wp-content"
+            },
+            {
+                "id": "index",
+                "rel-path": "yuppins",
+                "url": "http://localhost/yuppins/app"
+            }
+        ],
+        "success-response": "original"
+    },
+    "webp-convert": {
+        "serve-image": {
+            "headers": {
+                "cache-control": true,
+                "content-length": true,
+                "content-type": true,
+                "expires": true,
+                "last-modified": true
+            },
+            "cache-control-header": "public, max-age=604800"
+        },
+        "fail": "original",
+        "convert": {
+            "converters": [
+                {
+                    "converter": "gd",
+                    "options": {
+                        "skip-pngs": false
+                    }
+                },
+                {
+                    "converter": "cwebp",
+                    "options": {
+                        "use-nice": true,
+                        "try-common-system-paths": true,
+                        "try-supplied-binary-for-os": true,
+                        "method": 6,
+                        "low-memory": true,
+                        "command-line-options": ""
+                    }
+                },
+                {
+                    "converter": "imagick"
+                },
+                {
+                    "converter": "vips",
+                    "options": {
+                        "smart-subsample": false,
+                        "preset": "none"
+                    }
+                },
+                {
+                    "converter": "imagemagick",
+                    "options": {
+                        "use-nice": true
+                    }
+                },
+                {
+                    "converter": "graphicsmagick",
+                    "options": {
+                        "use-nice": true
+                    }
+                },
+                {
+                    "converter": "ffmpeg",
+                    "options": {
+                        "use-nice": true,
+                        "method": 4
+                    }
+                },
+                {
+                    "converter": "wpc",
+                    "options": {
+                        "api-key": ""
+                    }
+                },
+                {
+                    "converter": "ewww",
+                    "options": {
+                        "check-key-status-before-converting": false
+                    }
+                },
+                {
+                    "converter": "gmagick",
+                    "options": []
+                }
+            ],
+            "jpeg": {
+                "encoding": "auto",
+                "quality": 70,
+                "near-lossless": 60
+            },
+            "png": {
+                "encoding": "auto",
+                "quality": 85,
+                "near-lossless": 60,
+                "alpha-quality": 80
+            },
+            "metadata": "none",
+            "log-call-arguments": true
+        }
+    }
+}

@@ -1,0 +1,24 @@
+.wpuf-user-lists.square-layout.square-3 .wpuf-ud-user-object {
+    border: 1px solid #E4E6EB;
+    border-radius: 5px;
+    text-align: center;
+}
+.wpuf-user-lists.square-layout.square-3 .wpuf-ud-user-details {
+    margin: 20px 0;
+    padding: 0 10px;
+}
+.wpuf-user-lists.square-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+p.wpuf-ud-user-view-details {
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.wpuf-user-lists.square-3 p.wpuf-ud-user-name {
+    font-size: 1rem;
+    font-weight: bold;
+}
+

@@ -1,0 +1,23 @@
+.pac-item {
+    font-family: 'Poppins', sans-serif !important;
+}
+.gmw-submit-button {
+    transition: .3s;
+}
+.hide {
+    opacity: 0;
+    pointer-events: none;
+}
+.geocoder-search-loader {
+    position: absolute;
+    left: 50%;
+    width: 80px;
+    height: 80px;
+    margin-left: -40px;
+    pointer-events: none;
+    opacity: 0;
+    transition: .3s;
+}
+.geocoder-search-loader.visible {
+    opacity: 1;
+}

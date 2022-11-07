@@ -1,0 +1,909 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap');
+
+
+/*first page*/
+.mailbox {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #E4E6EB;
+}
+.mailbox form{
+    float: left;
+    margin-bottom: 20px;
+}
+.single {
+    clear: both;
+    margin-top: 5px;
+    position: relative;
+    padding: 5px 10px;
+    background: #eee;
+    height: 35px;
+    overflow: hidden;
+}
+.single a, .single a:visited, .single a:hover {
+    color: black;
+}
+.single.unread .sender, .single.unread .title {
+    font-weight: bold;
+}
+.single .sender {
+    position: absolute;
+    width: 80px;
+}
+.single .title {
+    position: absolute;
+    margin-left: 90px;
+    width: 165px;
+}
+.single .date {
+    position: absolute;
+    right: 25px;
+}
+.single .delete {
+    position: absolute;
+    right: 5px;
+    cursor: pointer;
+}
+.single .delete img {
+    width: 15px;
+    box-shadow: none;
+    padding-top: 5px;
+}
+/*single chat*/
+#wpuf-private-message-single .chat-with {
+    padding: 30px;
+    border: 1px solid #E4E6EB;
+    border-radius: 5px;
+    margin-bottom: -2px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#wpuf-private-message-single .chat-with a {
+    text-decoration: none;
+}
+.wpuf-private-message-index-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chat-container{
+    width: 100%;
+}
+.chat-wit-user span {
+    text-transform: capitalize;
+}
+.chat-container form{
+    width: 100%;
+    margin-bottom: 0px;
+    height: 25%;
+}
+.chat-container form textarea{
+    width: 97%;
+    resize: none;
+}
+.chat-box{
+    height: 500px;
+    overflow: scroll;
+    background: #E4E6EB;
+    margin-bottom: 0px !important;
+    padding: 20px;
+    position: relative;
+}
+.chat-container-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.single-chat-container {
+    bottom: 0px;
+}
+.chat {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+.darker {
+    border-color: #ccc;
+    background-color: #ddd;
+}
+.chat::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.chat span.delete {
+    float: right;
+    width: 25px;
+    margin-right: 0;
+    cursor: pointer;
+    display: none;
+}
+.chat span.delete img {
+    width: 25px;
+}
+.chat:hover span.delete {
+    display: block;
+}
+.chat img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+.chat img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right:0;
+}
+.time-right {
+    float: right;
+    color: #aaa;
+}
+.time-left {
+    float: left;
+    color: #999;
+}
+/*modal*/
+.wpuf-form-template-modal {
+    background: #fff;
+    position: fixed;
+    top: 5%;
+    bottom: 5%;
+    right: 25%;
+    left: 32%;
+    display: none;
+    z-index: 160000;
+}
+.wpuf-form-template-modal.show {
+    display: block;
+}
+.wpuf-form-template-modal * {
+    box-sizing: border-box;
+}
+.wpuf-form-template-modal a.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #C4C4C4;
+    content: '\f335';
+    display: inline-block;
+    padding: 5px 10px;
+    z-index: 5;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 22px;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+.wpuf-form-template-modal a.close:hover {
+    background: #eee;
+    opacity: 0.8;
+    text-decoration: none;
+}
+.wpuf-form-template-modal a.close:active {
+    background: #eee;
+    opacity: 0.4;
+}
+.wpuf-form-template-modal .modal-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    z-index: 4;
+    border-bottom: 1px solid #ddd;
+    padding-left: 15px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+.wpuf-form-template-modal .modal-header h2 {
+    line-height: 50px;
+    text-align: left;
+    margin-top: 0;
+    color: #5d6d74;
+    font-size: 20px;
+    text-shadow: 0 1px 1px #fff;
+}
+.wpuf-form-template-modal .content-container {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    bottom: 50px;
+    left: 0;
+    overflow: auto;
+    padding: 2em 2em;
+    padding-top: 0px !important;
+}
+.wpuf-form-template-modal .content-container.no-footer {
+    bottom: 0;
+}
+.wpuf-form-template-modal .content {
+    margin: 0 auto;
+    max-width: 900px;
+    text-align: left;
+}
+.wpuf-form-template-modal .content-container .content .user-search input {
+    width: 100%
+}
+.wpuf-form-template-modal .content ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/* .wpuf-form-template-modal .content ul li a {
+    text-decoration: none;
+    float: left;
+    margin: 10px;
+} */
+.wpuf-form-template-modal .content ul li img {
+    -webkit-transition: box-shadow 0.5s ease;
+    -moz-transition: box-shadow 0.5s ease;
+    -o-transition: box-shadow 0.5s ease;
+    -ms-transition: box-shadow 0.5s ease;
+    transition: box-shadow 0.5s ease;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+.wpuf-form-template-modal footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 12px 20px;
+    border-top: 1px solid #ddd;
+    background: #fff;
+    text-align: left;
+}
+.wpuf-form-template-modal-backdrop {
+    position: fixed;
+    z-index: 159999;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    min-height: 360px;
+    background: rgba(0, 0, 0, 0.3);
+    opacity: .7;
+    display: none;
+}
+.wpuf-form-template-modal-backdrop.show {
+    display: block;
+}
+/*Enhancement*/
+.wpuf-private-message-icon svg {
+    height: 80%;
+}
+.wpuf-dashboard-container {
+    font-family: 'Open Sans', sans-serif;
+}
+.entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
+    max-width: 85rem;
+    width: calc(100% - 4rem);
+}
+.wpuf-dashboard-container .wpuf-dashboard-navigation {
+    width: 20%;
+    float: left;
+}
+.wpuf-dashboard-navigation .active a {
+    color: #5C5CFB;
+
+}
+.wpuf-dashboard-container .wpuf-dashboard-content {
+    width: 80%;
+    min-height: 500px;
+    position: relative;
+}
+.wpuf-new-message-button {
+    background: #5C5CFB;
+    border-radius: 5px;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 10px;
+    padding: 15px 12px;
+    text-transform: capitalize;
+}
+.wpuf-new-message-button:hover, .wpuf-new-message-button:focus {
+    text-decoration: none;
+}
+.wpuf-message-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.wpuf-message-title {
+    font-weight: 700;
+    margin: 8px !important;
+    font-size: 32px;
+    line-height: 46px;
+}
+.wpuf-message-sub-title {
+    font-size: 16px;
+    width: 65%;
+    line-height: 24px;
+    font-weight: 400;
+}
+.wpuf-new-message-button {
+    margin: 20px;
+}
+.wpuf-search-user-icon {
+    position: absolute;
+    right: 4%;
+    top: 33%;
+    cursor: pointer;
+    color: #CED3DA;
+}
+.wpuf-user-search-input {
+    width: 100%;
+    color: #A5ADB7;
+    font-size: 15px;
+    height: 43px;
+    border: 1px solid #D7DEE2;
+    border-radius: 5px !important;
+}
+.user-search {
+    position: relative;
+}
+.wpuf-modal-title {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.pm-user-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.pm-user-list li {
+    flex-grow: 1;
+    width: 29%;
+    padding-top: 40px;
+    display: none;
+    min-height: 120px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.flex {
+    display: flex !important;
+}
+.pm-user-list li a {
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 46px;
+    letter-spacing: 0.127273px;
+}
+.wpuf-user-list-load-more {
+    background: #5C5CFB;
+    border-radius: 5px;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 10px;
+    padding: 15px 25px;
+    text-transform: capitalize;
+    position: absolute;
+    left: 42%;
+    margin-top: 35px !important;
+}
+.wpuf-user-list-load-more:hover, .wpuf-user-list-load-more:focus {
+    text-decoration: none;
+    outline: 0;
+}
+.user-not-found {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 10px;
+    text-align: center;
+    padding-top: 70px;
+}
+.no-more-users {
+    display: none;
+    text-align: center;
+    margin-top: 35px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 10px;
+}
+.wpuf-private-message-username {
+    margin-top: 15px;
+}
+.wpuf-message-box-container {
+    display: flex;
+    align-items: flex-start;
+}
+.wpuf-message-box {
+    position: relative;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 3px;
+    margin-bottom: 22px;
+    width: 60%;
+}
+
+.wpuf-message-receiver .wpuf-message-box {
+    background-color: #5C5CFB;
+    color: #ffffff;
+}
+.wpuf-user-picture img {
+    width: 55px !important;
+    height: 55px;
+    margin-left: 10px;
+    border-radius: 100%;
+}
+.wpuf-message-receiver .wpuf-user-picture img {
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+.message-send-box {
+    padding: 25px 35px;
+    border: 1px solid #E4E6EB;
+}
+.write-area {
+    background-color: #F3F4F8;
+    margin-bottom: 30px;
+    border: 1px solid #F3F4F8;
+    border-radius: 0px !important;
+}
+
+.write-area:focus {
+    outline: none !important;
+    border: 1px solid #F3F4F8;
+}
+
+.message-submit-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 35px;
+}
+.message-submit-area button {
+    padding: 10px 50px;
+    background-color: #5C5CFB;
+    border-radius: 5px;
+}
+
+.message-submit-area button:hover {
+    text-decoration: none;
+}
+.chat-wit-user h2 {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+.wpuf-user-message p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.13px;
+}
+
+.wpuf-message-send-time {
+    font-size: 14px !important;
+    color: #A5ADB7;
+    margin: 0;
+
+}
+.wpuf-message-receiver .wpuf-message-send-time {
+    color: #C3C3FF;
+}
+.wpuf-message-receiver {
+    justify-content: flex-start;
+}
+.wpuf-message-sender {
+    justify-content: flex-end;
+}
+.message-submit-area label {
+    cursor: pointer;
+    display: flex;
+    color: #797F8F;
+}
+.message-submit-area label svg {
+    margin-right: 8px;
+}
+
+/*Input file*/
+.custom-file-input {
+    display: none;
+
+}
+.wpuf-inbox-message {
+    padding: 25px;
+    height: 500px;
+    overflow: scroll;
+}
+.wpuf-inbox-message-body {
+    background-color: #fff;
+}
+.wpuf-inbox-message-body:hover {
+    background-color: #d1d2d6;
+}
+.wpuf-unread-conversation {
+    background-color: #d1d2d6;
+}
+.wpuf-message-body {
+    width: 100%;
+    color: #62748F;
+    position: relative;
+}
+.wpuf-message-body-heading {
+    display: flex;
+    justify-content: space-between;
+}
+.wpuf-message-body-heading span.wpuf-mesage-time {
+    font-size: 14px;
+}
+.wpuf-message-body-content {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+.wpuf-message-body-content p {
+    margin: 0;
+}
+
+a.wpuf-single-message {
+    display: flex;
+    text-decoration: none;
+    padding: 15px 25px;
+}
+a.wpuf-single-message {
+    border-bottom: 1px solid #e8eef1;
+}
+
+.wpuf-message-body-heading h5 {
+    margin: 0;
+    font-weight: 400;
+}
+.wpuf-message-avatar img {
+    height: 55px;
+    width: 55px;
+    margin-right: 1em;
+    border-radius: 100%;
+}
+.wpuf-message-status {
+    font-size: 14px;
+    position: absolute;
+    margin-left: 1em;
+    background: #07b107;
+    color: #fff;
+    padding: 1px 8px;
+    border-radius: 7px;
+}
+.wpuf-create-new-message {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #fff;
+    cursor: pointer;
+    box-shadow: #A5ADB7;
+}
+.preview-files {
+    display: flex;
+    flex-wrap: wrap;
+}
+.preview-files .preview-file {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    margin: 5px;
+}
+.preview-file img {
+    width: 80px;
+    height: 80px;
+}
+.wpuf-file-remove-icon {
+    position: absolute;
+    top: -8px;
+    right: -6px;
+    background: #000;
+    display: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    cursor: pointer;
+    border: 2px solid #fff;
+}
+.preview-files .preview-file:hover .wpuf-file-remove-icon {
+    display: block;
+}
+.remove-file-tooltip {
+    font-size: 14px;
+    background: #000;
+    color: #fff;
+    padding: 8px;
+    border-radius: 10px;
+    position: absolute;
+    top: -52px;
+    right: -42px;
+    opacity: 0;
+    visibility: hidden;
+}
+.close-icon:hover .remove-file-tooltip {
+    opacity: 1;
+    visibility: visible;
+}
+
+.remove-file-tooltip::after {
+    content: " ";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+.wpuf-file-remove-icon:hover .remove-file-tooltip {
+    display: block;
+}
+.message-image-container {
+    display: grid;
+    justify-items: center;
+    column-gap: 15px;
+    row-gap: 15px;
+}
+.message-image-container img {
+    width: 100%;
+    height: 100%;
+}
+.download-icon {
+    display: none;
+}
+.message-image-remove-icon {
+    display: none;
+}
+.file-item-1 {
+    grid-template-columns: repeat(1, 1fr);
+}
+.file-item-2 {
+    grid-template-columns: repeat(2, 1fr);
+}
+.file-item-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+.single-message-image {
+    position: relative;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+.wpuf-file-operation {
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    background-color: #fff;
+    border: 1px solid #000;
+    display: none;
+    justify-content: flex-end;
+    align-items: flex-start;
+    border-radius: 5px;
+}
+.single-message-image:hover .wpuf-file-operation {
+    display: flex;
+}
+.wpuf-file-operation img {
+    width: 20px;
+    padding: 3px;
+}
+.wpuf-file-download {
+    position: relative;
+}
+.wpuf-file-download:hover .wpuf-file-download-tooltip {
+    opacity: 1;
+    visibility: visible;
+}
+.wpuf-file-download-tooltip {
+    text-align: center;
+    position: absolute;
+    font-size: 14px;
+    background: #000;
+    color: #fff;
+    padding: 8px;
+    border-radius: 10px;
+    position: absolute;
+    top: -50px;
+    right: -29px;
+    left: -35px;
+    opacity: 1;
+    visibility: hidden;
+}
+.wpuf-file-download-tooltip::after {
+    content: " ";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+.wpuf-file-remove {
+    position: relative;
+}
+.wpuf-file-remove:hover .wpuf-file-remove-tooltip {
+    opacity: 1;
+    visibility: visible;
+}
+.wpuf-file-remove-tooltip {
+    text-align: center;
+    position: absolute;
+    font-size: 14px;
+    background: #000;
+    color: #fff;
+    padding: 8px;
+    border-radius: 10px;
+    position: absolute;
+    top: -50px;
+    right: -23px;
+    left: -27px;
+    opacity: 0;
+    visibility: hidden;
+}
+.wpuf-file-remove-tooltip::after {
+    content: " ";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+.wpuf-file-name {
+    font-size: 12px;
+    padding-left: 10px;
+}
+.wpuf-inbox-message-container {
+    background-color: #F3F4F8;
+    position: relative;
+}
+.wpuf-create-new-message-icon{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 100%;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    -webkit-box-shadow: 1px 1px 10px 0px rgb(242 242 242);
+    -moz-box-shadow: 1px 1px 10px 0px rgba(242,242,242,1);
+    box-shadow: 1px 1px 10px 0px rgb(242 242 242);
+}
+.wpuf-create-new-message-icon img {
+    width: 24px;
+}
+.wpuf-select-different-user {
+    font-size: 16px;
+    font-weight: normal;
+    color: #797F8F;
+    background-color: #F3F4F8;
+    text-decoration: none;
+    border: 1px solid #E4E6EB;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 40px;
+    line-height: 10px;
+    text-transform: inherit;
+}
+
+.wpuf-select-different-user:hover {
+    text-decoration: none;
+}
+.wpuf-submit-button-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wpuf-submit-button-area img {
+    width: 40px;
+}
+.wpuf-sender-message-remove-icon {
+    position: absolute;
+    top: -16px;
+    left: -16px;
+    background-color: #fff;
+    border-radius: 100%;
+    padding: 3px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+.wpuf-receiver-message-remove-icon {
+    position: absolute;
+    top: -16px;
+    right: -16px;
+    background-color: #fff;
+    border-radius: 100%;
+    padding: 3px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+.private-message-back {
+    display: flex;
+    align-items: center;
+}
+.private-message-back .delete-all-conversation {
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .wpuf-form-template-modal .modal-header h2 small {
+        display: none;
+    }
+    .wpuf-form-template-modal .content ul li {
+        float: none;
+        width: 100%;
+        margin-left: 0;
+    }
+
+}
+@media screen and (max-width: 480px) {
+    .wpuf-modal-title {
+        font-size: 20px;
+    }
+    .pm-user-list {
+        display: block !important;
+    }
+    .pm-user-list li {
+        width: 100%;
+        top: 15px;
+    }
+    .wpuf-user-list-load-more {
+        left: 18%;
+    }
+    .wpuf-form-template-modal .content-container .content .user-search input {
+        font-size: 10px;
+    }
+    .pm-user-list li a {
+        font-size: 13px;
+    }
+    .wpuf-private-message-username {
+        margin-top: 0px;
+        text-align: center;
+    }
+    .message-submit-area {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 35px;
+        flex-direction: column;
+    }
+    .message-submit-area label {
+        margin-bottom: 15px;
+    }
+}

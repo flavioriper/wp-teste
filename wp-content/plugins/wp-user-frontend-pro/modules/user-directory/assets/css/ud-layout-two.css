@@ -1,0 +1,74 @@
+.wpuf-ud-user-profile.layout-two {
+    min-width: 70%;
+}
+.wpuf-ud-user-profile.layout-two .profile {
+    border: 1px solid #E4E6EB;
+    padding: 35px;
+    border-radius: 5px;
+    background: #FFF;
+}
+.wpuf-ud-user-profile.layout-two .profile .profile-basic{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.wpuf-ud-user-profile.layout-two .icon{
+    margin-right: 15px;
+}
+.wpuf-ud-user-profile.layout-two .user-contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 40px 0px;
+}
+.wpuf-ud-user-profile.layout-two .field {
+    display: flex;
+    align-items: center;
+}
+.wpuf-ud-user-profile.layout-two .field .label {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 700;
+}
+.wpuf-ud-user-profile.layout-two .user-biography h3 {
+    font-size: 24px;
+    line-height: 26px;
+    font-style: normal;
+    margin-bottom: 15px;
+}
+.wpuf-ud-user-profile.layout-two .file h3 {
+    font-size: 24px;
+    line-height: 26px;
+    margin: 15px 0px;
+}
+.wpuf-ud-user-profile.layout-two .file ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 10px 0px;
+}
+.wpuf-ud-user-profile.layout-two .file ul li {
+    padding: 15px;
+    border: 1.0218px solid #DAE1F5;
+    padding: 15px;
+    border-radius: 10px;
+}
+.biography-description p,
+.wpuf-ud-user-profile.layout-two .value a{
+    color: #969696;
+}
+.wpuf-ud-user-profile.layout-two h4.builder-section-heading {
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    padding: 0;
+    margin: 20px 0 10px;
+}
+.wpuf-ud-user-profile.layout-two h3.profile-tab-heading {
+    margin: 35px 0 20px;
+}
+.wpuf-ud-user-profile.layout-two .wpuf-profile-section h3.profile-section-heading {
+    border-bottom: none;
+}

@@ -1,0 +1,50 @@
+.wpuf-math-captcha .captcha {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    border: 2px dashed #ddd;
+    border-radius: 3px;
+    background-color: #f4f7fa;
+    padding: 5px 13px;
+    margin: 0;
+  }
+  .wpuf-math-captcha .captcha-equal {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .wpuf-math-captcha .captcha-number-area {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 25%;
+    text-align: justify;
+  }
+  .wpuf-math-captcha .captcha-number {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 10px !important;
+  }
+  .wpuf-math-captcha .captcha-equal {
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  .wpuf-math-captcha .refresh {
+    cursor: pointer;
+  }
+  .wpuf-math-captcha .refresh svg {
+    fill: #3d80c4 !important;
+  }
+
+  .wpuf-math-captcha .wpuf-captcha-error {
+    font-size: 12px;
+    color: red;
+  }
+  
+  #captchaRefresher {
+    width: 65px !important;
+  }
+
+  .wpuf-captcha-input-wrapper input {
+    padding: 10px !important;
+  }
+  

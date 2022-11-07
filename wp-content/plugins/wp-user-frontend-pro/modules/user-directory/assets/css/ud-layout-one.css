@@ -1,0 +1,48 @@
+.ud-single-profile-container.layout-one {
+    display: flex;
+}
+.ud-section-one-third {
+    margin-right: 20px;
+    padding: 10px;
+}
+.short-description {
+    background: #FFF;
+    border-radius: 5px;
+    margin-right: 30px;
+    padding: 17px;
+    height: fit-content;
+}
+.ud-profile-intro {
+    text-align: center;
+    margin: 20px 10px;
+}
+.ud-profile-intro .display-name h4 {
+    margin: 15px 0;
+}
+.biography {
+    margin-top: 20px;
+}
+.data-tabs ul {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+}
+.user-tab-content-area {
+    margin-top: 40px;
+}
+.user-data h3 {
+    margin: 0;
+}
+
+.user-tab-content-area .wpuf-profile-section h3.profile-section-heading {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+.wpuf-ud-post-list .all-post {
+    margin: 0;
+    padding: 0;
+     font-size: 24px;
+     line-height: 26px;
+     font-weight: 700;
+}

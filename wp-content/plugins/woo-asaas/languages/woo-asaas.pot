@@ -1,0 +1,937 @@
+# Copyright (C) 2022 Asaas
+# This file is distributed under the same license as the Asaas Gateway for WooCommerce plugin.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Asaas Gateway for WooCommerce 1.8.4\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/src\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-10-24 19:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: woo-asaas\n"
+"\n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;"
+
+#: includes/installments/checkout/class-wc-interest-order-item-fee.php:89
+msgid "%d installment"
+msgid_plural "%d installments"
+msgstr[0] ""
+msgstr[1] ""
+
+#. %d: installment number, %s: installment value, %s: interest value
+#: includes/installments/checkout/class-installments-checkout.php:130
+msgid "%dx %s (%s%% interest)"
+msgstr ""
+
+#. %s: field name
+#: includes/helper/class-validation-helper.php:73
+msgid "%s is a required field."
+msgstr ""
+
+#. %s: field name
+#: includes/checkout/form-field/class-card-expiration.php:253
+msgid "%s must at least 2 digits and be a non-past year."
+msgstr ""
+
+#. %s: field name
+#: includes/checkout/form-field/class-card-expiration.php:239
+msgid "%s must have two digits and be a valid month number."
+msgstr ""
+
+#. %s: Asaas payment id
+#: includes/gateway/class-gateway.php:597
+#, php-format
+msgid "%s payment refund request has been processed successfully."
+msgstr ""
+
+#. %s: Asaas integration settings panel URL
+#: includes/admin/settings/class-settings.php:120
+msgid ""
+"<a href=\"%s\">Click here</a> and go to section <em>Webhook</em> in the "
+"section <em>Integração</em> tab"
+msgstr ""
+
+#: includes/class-wc-asaas.php:326
+msgid "<a href=\"%s\">Click here</a> to change checkout fields."
+msgstr ""
+
+#. 1: The plugin name, 2: The dependency plugin name
+#: includes/admin/views/missing-dependency-plugin.php:49
+msgid "<strong>%1$s</strong> depends on the %2$s plugin to work."
+msgstr ""
+
+#: includes/checkout/form-field/class-card-expiration.php:225
+msgid "<strong>Expiration</strong> must be a non-past date."
+msgstr ""
+
+#: templates/order/ticket-thankyou.php:33 
+#: templates/order/ticket-thankyou.php:44
+msgid "Access ticket"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:212
+msgid "Access Token"
+msgstr ""
+
+#. %s: The plugin name
+#: includes/admin/views/missing-dependency-plugin.php:42 
+#: includes/admin/views/missing-subscription-dependency-plugin.php:52
+msgid "Activate %s"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:136
+msgid "Advanced Options"
+msgstr ""
+
+#. %s: Asaas integration settings panel URL
+#: includes/admin/settings/class-settings.php:205
+msgid ""
+"Allow Asaas to send email and SMS about the purchase and notify him "
+"periodically while the purchase is not paid."
+msgstr ""
+
+#: includes/billing-type/class-credit-card.php:64
+msgid "Amex"
+msgstr ""
+
+#: includes/api/response/class-error-response.php:27
+msgid "An error processing your order. Contact us."
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:111
+msgid "API"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:191
+msgid "API Key"
+msgstr ""
+
+#: includes/gateway/class-credit-card.php:92
+msgid "Are you sure that this card exists?"
+msgstr ""
+
+#. Author of the plugin
+msgid "Asaas"
+msgstr ""
+
+#: includes/gateway/class-credit-card.php:33
+msgid "Asaas Credit Card"
+msgstr ""
+
+#: includes/subscription/admin/class-subscription-admin.php:138
+msgid "Asaas does not support changes on subscription start date."
+msgstr ""
+
+#: includes/subscription/admin/class-subscription-admin.php:142
+msgid "Asaas does not support changes on trial date."
+msgstr ""
+
+#. %s: supported billing cicles
+#: includes/subscription/admin/class-subscription-admin.php:162
+#, php-format
+msgid ""
+"Asaas does not support the chosen billing period. Please, choose a valid "
+"period: %s."
+msgstr ""
+
+#. %s: billing cycles
+#: includes/product/admin/settings/class-product-settings.php:72
+#, php-format
+msgid "Asaas gateway currently supports the following billing cycles: %s."
+msgstr ""
+
+#. %s: coupon types
+#: includes/coupon/class-coupon.php:75
+#, php-format
+msgid "Asaas gateway currently supports the following coupon types: %s."
+msgstr ""
+
+#. Name of the plugin
+msgid "Asaas Gateway for WooCommerce"
+msgstr ""
+
+#: includes/class-wc-asaas.php:322
+msgid "Asaas needs the CPF or CNPJ at checkout for the integration works."
+msgstr ""
+
+#: includes/gateway/class-pix.php:28
+msgid "Asaas Pix"
+msgstr ""
+
+#: includes/gateway/class-ticket.php:31
+msgid "Asaas Ticket"
+msgstr ""
+
+#. %s: billing type name
+#: includes/class-wc-asaas.php:260 includes/webhook/class-endpoint.php:269
+msgid "Billing type %s wasn't registered."
+msgstr ""
+
+#: includes/helper/class-subscriptions-helper.php:60
+msgid "BIMONTHLY"
+msgstr ""
+
+#: includes/helper/class-subscriptions-helper.php:48
+msgid "BIWEEKLY"
+msgstr ""
+
+#: includes/cron/class-expired-pix-cron.php:45 
+#: includes/cron/class-expired-ticket-cron.php:43 
+#: includes/subscription/class-subscription.php:70 
+#: includes/coupon/class-coupon.php:44 
+#: includes/my-account/class-woocommerce-my-account.php:43 
+#: includes/checkout/class-checkout.php:43 includes/cart/class-cart.php:44 
+#: includes/subscription/admin/class-subscription-admin.php:48 
+#: includes/installments/gateway/class-checkout-installments.php:45 
+#: includes/installments/gateway/class-payment-installments.php:47 
+#: includes/product/admin/settings/class-product-settings.php:44 
+#: includes/subscription/admin/settings/class-woocommerce-subscriptions-settings.php:46
+#:  includes/installments/admin/settings/class-installments-fields.php:45
+msgid "Cannot unserialize singleton"
+msgstr ""
+
+#: includes/checkout/form-field/class-card.php:84
+msgid "Card number"
+msgstr ""
+
+#: templates/order/pix-thankyou.php:32
+msgid "Click here to copy the Pix code"
+msgstr ""
+
+#: includes/admin/views/unsupported-woocommerce-subscriptions-feature-manual-renewal.php:26
+#:  
+#: includes/admin/views/unsupported-woocommerce-subscriptions-feature-auto-renewal-toggle.php:26
+msgid "Click here to review WooCommerce Subscriptions settings"
+msgstr ""
+
+#: templates/order/pix-thankyou.php:31
+msgid "Code copied to clipboard"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:117
+msgid ""
+"Configure the webhook to receive Asaas notifications and update orders "
+"automatically."
+msgstr ""
+
+#: includes/helper/class-checkout-helper.php:29
+msgid "Confirmed"
+msgstr ""
+
+#: includes/admin/settings/class-pix.php:55
+msgid "Copy and paste"
+msgstr ""
+
+#: includes/billing-type/class-credit-card.php:42 
+#: includes/admin/settings/class-credit-card.php:62
+msgid "Credit Card"
+msgstr ""
+
+#: templates/order/pix-thankyou-instructions.php:18
+msgid "day"
+msgid_plural "days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/settings/class-settings.php:222
+msgid "Debug log"
+msgstr ""
+
+#. %s: Webhook token suggestion
+#: includes/admin/settings/class-settings.php:126
+msgid ""
+"Define an access access token (e.g., <code>%s</code>) and fill the same "
+"value in this form <em>Access Token</em> input"
+msgstr ""
+
+#. %d: maximum installments allowed
+#: includes/installments/admin/settings/class-installments-fields.php:75
+msgid ""
+"Define the installment limit allowed. The max value is <code>%d</code>. Use "
+"<code>0</code> to disable this option."
+msgstr ""
+
+#. %s: billing type name
+#: includes/admin/settings/class-settings.php:173
+msgid "Description"
+msgstr ""
+
+#: includes/billing-type/class-credit-card.php:69
+msgid "Diners"
+msgstr ""
+
+#: includes/billing-type/class-credit-card.php:79
+msgid "Discover"
+msgstr ""
+
+#: includes/gateway/class-gateway.php:585
+msgid ""
+"Due to payment method, to return funds to the customer you will need to "
+"issue a refund through your payment gateway or externally."
+msgstr ""
+
+#: includes/billing-type/class-credit-card.php:74
+msgid "Elo"
+msgstr ""
+
+#. %s: billing type name
+#: includes/admin/settings/class-settings.php:157
+msgid "Enable Asaas %s"
+msgstr ""
+
+#: includes/admin/settings/class-pix.php:57
+msgid "Enable copy and paste"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:224
+msgid "Enable logging"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:203
+msgid "Enable Notification"
+msgstr ""
+
+#: includes/admin/settings/class-credit-card.php:41
+msgid "Enable one-click buy"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:121
+msgid "Enable the webhook"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:154
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:182
+msgid "Endpoint"
+msgstr ""
+
+#. %s: event name
+#: includes/webhook/class-endpoint.php:253
+msgid "Event %s wasn't registered."
+msgstr ""
+
+#: includes/checkout/form-field/class-card.php:93
+msgid "Expiration"
+msgstr ""
+
+#. %s: the field label
+#: includes/checkout/form-field/class-card-expiration.php:159
+msgid "Expiration %s"
+msgstr ""
+
+#: includes/checkout/form-field/class-card-expiration.php:42
+msgid "Expiration date"
+msgstr ""
+
+#: includes/admin/settings/class-pix.php:46
+msgid "Expiration Period"
+msgstr ""
+
+#: includes/installments/checkout/class-order-interest-handler.php:66
+msgid "Fail to add installment interest fee."
+msgstr ""
+
+#: includes/webhook/class-webhook.php:305
+msgid "Fine tax"
+msgstr ""
+
+#: includes/helper/class-subscriptions-helper.php:78
+msgid "Fixed cart discount"
+msgstr ""
+
+#: includes/helper/class-subscriptions-helper.php:79
+msgid "Fixed product discount"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:107
+msgid "Gateway"
+msgstr ""
+
+#: includes/billing-type/class-credit-card.php:84
+msgid "Hipercard"
+msgstr ""
+
+#: templates/order/pix-thankyou-instructions.php:14
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.asaas.com"
+msgstr ""
+
+#: includes/gateway/class-ticket.php:343
+msgid "Ignore remove tickets by empty setting."
+msgstr ""
+
+#: templates/order/pix-thankyou-instructions.php:24
+msgid "In the Pix option, choose \"Read QR Code\"."
+msgstr ""
+
+#. %s: The plugin name
+#: includes/admin/views/missing-dependency-plugin.php:26 
+#: includes/admin/views/missing-subscription-dependency-plugin.php:36
+msgid "Install %s"
+msgstr ""
+
+#. %1$s: count installments %2$s: total installments
+#: templates/order/ticket-thankyou.php:30
+msgid "Installment %1$s of %2$s."
+msgstr ""
+
+#: includes/admin/views/installments-interest-list.php:23 
+#: includes/installments/checkout/class-installments-checkout.php:46 
+#: includes/installments/admin/settings/class-installments-fields.php:90
+msgid "Installments"
+msgstr ""
+
+#: includes/webhook/class-webhook.php:313 
+#: includes/admin/views/installments-interest-list.php:24 
+#: includes/installments/admin/settings/class-installments-fields.php:99
+msgid "Interest"
+msgstr ""
+
+#: includes/installments/checkout/class-wc-interest-order-item-fee.php:89
+msgid "Interest (%s%% per installment)"
+msgstr ""
+
+#. %s: available meta keys
+#: includes/meta-data/class-customer.php:97
+msgid "Invalid customer meta key. The available keys are: %s"
+msgstr ""
+
+#: includes/checkout/form-field/class-card-security-code.php:74
+msgid "Invalid security code."
+msgstr ""
+
+#. %s: log page link
+#: includes/admin/settings/class-settings.php:227
+msgid "Log Asaas API and webhook communication, inside %s."
+msgstr ""
+
+#: includes/billing-type/class-credit-card.php:59
+msgid "Mastercard"
+msgstr ""
+
+#: includes/installments/admin/settings/class-installments-fields.php:106
+msgid "Minimum installment value"
+msgstr ""
+
+#. %d: expiration time
+#: templates/order/pix-thankyou-instructions.php:10
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/checkout/form-field/class-card-expiration.php:110
+msgid "MM"
+msgstr ""
+
+#: includes/checkout/form-field/class-card-expiration.php:107
+msgid "Month"
+msgstr ""
+
+#: includes/helper/class-subscriptions-helper.php:52 
+#: includes/helper/class-subscriptions-helper.php:56
+msgid "MONTHLY"
+msgstr ""
+
+#: includes/checkout/form-field/class-card.php:75
+msgid "Name on card"
+msgstr ""
+
+#: includes/checkout/form-field/class-one-click-options.php:59
+msgid "New Credit Card"
+msgstr ""
+
+#: includes/gateway/class-pix.php:351 includes/gateway/class-pix.php:355
+msgid "No expired Pix to remove."
+msgstr ""
+
+#: includes/gateway/class-ticket.php:352
+msgid "No expired ticket to remove."
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:201
+msgid "Notification between Asaas and customer"
+msgstr ""
+
+#: includes/admin/settings/class-ticket.php:39
+msgid ""
+"Number of days that the ticket will be kept at Asaas after its expiration. "
+"At the end of this period, the ticket will be removed. It will keep if blank."
+msgstr ""
+
+#: includes/admin/settings/class-credit-card.php:39
+msgid "One-Click Buy"
+msgstr ""
+
+#: templates/order/pix-thankyou-instructions.php:23
+msgid "Open the app or Internet Banking to pay."
+msgstr ""
+
+#. %d: the order id
+#: includes/gateway/class-credit-card.php:111 
+#: includes/gateway/class-pix.php:210 includes/gateway/class-ticket.php:136
+#, php-format
+msgid "Order #%d"
+msgstr ""
+
+#: includes/gateway/class-gateway.php:630
+msgid ""
+"Order automatically refunded due to total or partial processing failure."
+msgstr ""
+
+#: includes/admin/settings/class-credit-card.php:31
+msgid "Order minimum total"
+msgstr ""
+
+#: includes/gateway/class-gateway.php:573
+msgid "Order not found."
+msgstr ""
+
+#: includes/helper/class-checkout-helper.php:33
+msgid "Overdue"
+msgstr ""
+
+#: includes/gateway/class-gateway.php:581
+msgid "Partial refunds are not possible."
+msgstr ""
+
+#: templates/order/pix-thankyou.php:20
+msgid "Pay with Pix."
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:176
+msgid "Pay your order using Asaas."
+msgstr ""
+
+#: includes/admin/settings/class-credit-card.php:23
+msgid "Pay your purchase with credit card."
+msgstr ""
+
+#: includes/admin/settings/class-pix.php:32
+msgid "Pay your purchase with Pix."
+msgstr ""
+
+#: includes/admin/settings/class-ticket.php:23
+msgid "Pay your purchase with ticket."
+msgstr ""
+
+#: includes/webhook/class-webhook.php:152
+msgid "Payment confirmed."
+msgstr ""
+
+#: includes/webhook/class-webhook.php:256
+msgid "Payment created."
+msgstr ""
+
+#. 1: The due date, 2: The subscription order id
+#: includes/webhook/class-webhook.php:252
+#, php-format
+msgid "Payment created. Due date: %1$s / Subscription id: %2$s"
+msgstr ""
+
+#: includes/webhook/class-webhook.php:283
+msgid "Payment deleted."
+msgstr ""
+
+#: templates/order/credit-card-thankyou.php:15 
+#: templates/order/pix-thankyou.php:16 templates/order/ticket-thankyou.php:15
+msgid "Payment details"
+msgstr ""
+
+#. 1: The payment link
+#: includes/webhook/class-webhook.php:264
+#, php-format
+msgid "Payment link: %1$s"
+msgstr ""
+
+#: includes/gateway/class-gateway.php:600
+msgid "Payment not found. The order cannot be refunded via this flow."
+msgstr ""
+
+#: includes/webhook/class-webhook.php:296
+msgid "Payment overdue."
+msgstr ""
+
+#: includes/helper/class-checkout-helper.php:25
+msgid "Pending"
+msgstr ""
+
+#: includes/helper/class-subscriptions-helper.php:77
+msgid "Percentage discount"
+msgstr ""
+
+#: includes/billing-type/class-pix.php:42 
+#: includes/admin/settings/class-pix.php:102
+msgid "Pix"
+msgstr ""
+
+#: includes/admin/settings/class-pix.php:48
+msgid ""
+"Pix validity after purchase. At the end of this period, the Pix will be "
+"removed. The value can be minutes (<code>10m</code> for 10 minutes), hours "
+"(<code>3h</code> for 3 hours) or days (<code>1d</code> for 1 day). If you do "
+"not enter <code>m</code>, <code>h</code> or <code>d</code>, the default will "
+"be <code>d</code>. Leave blank to not expire. The minimum period is 10 "
+"minutes."
+msgstr ""
+
+#: includes/admin/views/unsupported-woocommerce-subscriptions-feature-manual-renewal.php:22
+#:  
+#: includes/admin/views/unsupported-woocommerce-subscriptions-feature-auto-renewal-toggle.php:22
+msgid "Please, review this setting."
+msgstr ""
+
+#. %s: Webhook endpoint URL
+#: includes/admin/settings/class-settings.php:123
+msgid "Put <code>%s</code> in URL"
+msgstr ""
+
+#: includes/admin/settings/class-ticket.php:31
+msgid "Quantity days that the ticket is valid after the purchase."
+msgstr ""
+
+#: includes/helper/class-subscriptions-helper.php:64
+msgid "QUARTERLY"
+msgstr ""
+
+#: includes/helper/class-checkout-helper.php:41
+msgid "Received in cash"
+msgstr ""
+
+#: includes/helper/class-checkout-helper.php:45
+msgid "Refund requested"
+msgstr ""
+
+#: includes/helper/class-checkout-helper.php:37
+msgid "Refunded"
+msgstr ""
+
+#: templates/order/pix-thankyou-instructions.php:30
+msgid ""
+"Review the information and confirm payment. Ready! The order status will be "
+"updated immediately."
+msgstr ""
+
+#: templates/order/pix-thankyou-instructions.php:27
+msgid ""
+"Scan the QR Code or, if you prefer, copy the code to Pix Copy and Paste."
+msgstr ""
+
+#: includes/checkout/form-field/class-card.php:101
+msgid "Security code"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:124
+msgid "Select <em>v3</em> on <em>Versão da API</em>"
+msgstr ""
+
+#: includes/gateway/class-credit-card.php:312
+msgid "Select a credit card"
+msgstr ""
+
+#: includes/helper/class-subscriptions-helper.php:68
+msgid "SEMIANNUALLY"
+msgstr ""
+
+#: includes/helper/class-subscriptions-helper.php:81
+msgid "Sign Up Fee % Discount"
+msgstr ""
+
+#: includes/helper/class-subscriptions-helper.php:80
+msgid "Sign Up Fee Discount"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:378
+msgid "Status &gt; Logs"
+msgstr ""
+
+#. %s: the order status
+#: templates/order/credit-card-thankyou.php:21
+msgid "Status: <strong>%s</strong>"
+msgstr ""
+
+#. 1: the subscription order id, 2: The items names
+#: includes/gateway/class-gateway.php:765
+#, php-format
+msgid "Subscription #%1$d - %2$s"
+msgstr ""
+
+#: includes/subscription/admin/class-subscription-admin.php:88
+msgid "Subscription update error"
+msgstr ""
+
+#: includes/subscription/admin/class-subscription-admin.php:87
+msgid "Subscription update error:"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:132
+msgid "Subscriptions"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Take transparent credit card and bank ticket payment checkouts on your store "
+"using Asaas."
+msgstr ""
+
+#: includes/admin/views/unsupported-woocommerce-subscriptions-feature-early-renewal.php:16
+msgid ""
+"That's why it was automatically deactivated in the client's subscription "
+"management screen."
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:184
+msgid ""
+"The API endpoint. The default values are <code>https://sandbox.asaas."
+"com/api/v3</code> for tests and <code>https://www.asaas.com/api/v3</code> "
+"for production."
+msgstr ""
+
+#. %s: Asaas integration settings panel URL
+#: includes/admin/settings/class-settings.php:194
+msgid ""
+"The API Key used to connect with Asaas. <a href=\"%s\">Click here</a> to get "
+"it."
+msgstr ""
+
+#: includes/cart/class-cart.php:146
+msgid ""
+"The Asaas payment gateway was disabled because it does not support the "
+"billing cycle for one or more products in the cart."
+msgstr ""
+
+#. %s: coupon code
+#: includes/cart/class-cart.php:163
+#, php-format
+msgid ""
+"The Asaas payment gateway was disabled because it does not support the "
+"following coupon code: %s."
+msgstr ""
+
+#: includes/admin/views/unsupported-woocommerce-subscriptions-feature-auto-renewal-toggle.php:18
+msgid ""
+"The Asaas WooCommerce plugin does not support the auto renewal toggle "
+"feature."
+msgstr ""
+
+#: includes/admin/views/unsupported-woocommerce-subscriptions-feature-early-renewal.php:15
+msgid ""
+"The Asaas WooCommerce plugin does not support the early renewal feature."
+msgstr ""
+
+#: includes/admin/views/unsupported-woocommerce-subscriptions-feature-manual-renewal.php:18
+msgid ""
+"The Asaas WooCommerce plugin does not support the manual renewal feature."
+msgstr ""
+
+#: includes/subscription/admin/class-subscription-admin.php:152
+msgid "The end subscription date must be greater than the current one."
+msgstr ""
+
+#. %d: minimum installments value
+#: includes/installments/admin/settings/class-installments-fields.php:109
+msgid ""
+"The minimum value for each installment. The minimum value accepted by Asaas "
+"is <code>%s</code>."
+msgstr ""
+
+#: includes/subscription/admin/class-subscription-admin.php:148
+msgid "The next payment date must be greater than the current one."
+msgstr ""
+
+#: includes/admin/settings/class-credit-card.php:33
+msgid ""
+"The order minimum total to allow use this payment method. Use <code>0</code> "
+"to disable this option."
+msgstr ""
+
+#: includes/gateway/class-pix.php:364
+msgid "The PIX from Order %s was removed"
+msgstr ""
+
+#: includes/admin/views/subscription-feature-is-ready.php:18
+msgid "The plugin is able to process subscription payments."
+msgstr ""
+
+#: includes/gateway/class-credit-card.php:144
+msgid "The related payment isn't pending on the gateway."
+msgstr ""
+
+#. 1: The plugin name, 2: The dependency plugin name
+#: includes/admin/views/missing-subscription-dependency-plugin.php:61
+#, php-format
+msgid ""
+"The subscriptions feature depends on the <strong>%1$s plugin version %2$s or "
+"greater</strong> to work."
+msgstr ""
+
+#. %s: Asaas integration settings panel URL
+#: includes/admin/settings/class-settings.php:215
+msgid "The token filled in the Asaas webhook settings."
+msgstr ""
+
+#: includes/gateway/class-credit-card.php:261 
+#: includes/gateway/class-pix.php:289 includes/gateway/class-ticket.php:209
+msgid "There was a failure on subscription generation."
+msgstr ""
+
+#: includes/gateway/class-credit-card.php:191 
+#: includes/gateway/class-credit-card.php:221
+msgid "There was a payment failure and therefore the transaction was reversed."
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:175
+msgid "This controls the description which the user sees during checkout."
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:165
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:233
+msgid "This option is shared with another Asaas gateway."
+msgstr ""
+
+#: includes/gateway/class-gateway.php:577
+msgid ""
+"This order cannot be refunded via this flow. Please, refund through your "
+"payment gateway or externally."
+msgstr ""
+
+#: includes/webhook/class-webhook.php:160
+msgid "This order was already paid."
+msgstr ""
+
+#: includes/billing-type/class-ticket.php:42 
+#: includes/admin/settings/class-ticket.php:56
+msgid "Ticket"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:163
+msgid "Title"
+msgstr ""
+
+#: includes/admin/settings/class-credit-card.php:42
+msgid "To enable one-click buy please contact your Asaas manager."
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:127
+msgid ""
+"To process the webhook queue que field <em>Status fila de sincronização</em> "
+"must be <em>Ativa</em>"
+msgstr ""
+
+#: includes/subscription/admin/class-subscription-admin.php:176
+msgid ""
+"To update the billing cycle, next payment date or subscription end date you "
+"need to have tokenization enabled in your Asaas account."
+msgstr ""
+
+#: includes/gateway/class-ticket.php:374
+msgid "Total tickets removed: %s"
+msgstr ""
+
+#. %s: event name
+#: includes/webhook/class-webhook.php:143
+msgid "Untreated event: %s"
+msgstr ""
+
+#. %s: Asaas website URL
+#: includes/gateway/class-pix.php:30
+msgid ""
+"Use <a href=\"%s\">Asaas</a> to allow your customer buy your products by Pix."
+msgstr ""
+
+#. %s: Asaas website URL
+#: includes/gateway/class-ticket.php:33
+msgid ""
+"Use <a href=\"%s\">Asaas</a> to allow your customer buy your products by "
+"ticket."
+msgstr ""
+
+#. %s: Asaas website URL
+#: includes/gateway/class-credit-card.php:35
+msgid ""
+"Use <a href=\"%s\">Asaas</a> to allow your customer buy your products in "
+"installments using credit card."
+msgstr ""
+
+#: includes/admin/settings/class-ticket.php:29
+msgid "Validity Days"
+msgstr ""
+
+#: includes/admin/settings/class-ticket.php:37
+msgid "Validity Period"
+msgstr ""
+
+#: includes/billing-type/class-credit-card.php:54
+msgid "Visa"
+msgstr ""
+
+#: includes/admin/views/missing-subscription-dependency-plugin.php:24
+msgid "Visit plugin site"
+msgstr ""
+
+#. %s: billing cycles
+#: includes/admin/views/subscription-feature-is-ready.php:24
+#, php-format
+msgid "We currently support the following billing cycles: %s."
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:115
+msgid "Webhook"
+msgstr ""
+
+#: includes/webhook/class-endpoint.php:178
+msgid "Webhook has been processed with success"
+msgstr ""
+
+#: includes/helper/class-subscriptions-helper.php:44
+msgid "WEEKLY"
+msgstr ""
+
+#: includes/installments/admin/settings/class-installments-fields.php:81
+msgid ""
+"When saving the changes with the installments enabled, an interest table "
+"will be released."
+msgstr ""
+
+#: includes/checkout/form-field/class-card-expiration.php:128
+msgid "Year"
+msgstr ""
+
+#: includes/helper/class-subscriptions-helper.php:72
+msgid "YEARLY"
+msgstr ""
+
+#. 1: expiration time setting 2: expiration period
+#: templates/order/pix-thankyou-instructions.php:36
+msgid ""
+"You have %1$d %2$s to pay. After that time, your order will be cancelled."
+msgstr ""
+
+#: templates/order/ticket-thankyou.php:41
+msgid "Your ticket is ready."
+msgstr ""
+
+#: templates/order/ticket-thankyou.php:20
+msgid "Your tickets are ready."
+msgstr ""
+
+#: includes/checkout/form-field/class-card-expiration.php:131
+msgid "YYYY"
+msgstr ""

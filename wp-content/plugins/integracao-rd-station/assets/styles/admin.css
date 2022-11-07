@@ -1,0 +1,44 @@
+.rd-integration-tips {
+	margin: 25px 10px;
+}
+.rd-fields-mapping {
+	color: #4f6d83;
+	font-weight: bold;
+}
+.rd-fields-mapping span {
+	margin: 5px 15px;
+}
+.rd-fields-mapping input {
+	border: none;
+	box-shadow: none;
+	outline: none;
+	border-bottom: 1px solid #4f6d83;
+}
+.rd-fields-mapping input:focus{
+	box-shadow: none;
+	outline: none;
+	border-bottom: 2px solid #4f6d83;
+}
+.rd-select-form select{
+	border: 1px solid #4f6d83;
+	padding: 5px 10px;
+    height: auto;
+    box-sizing: border-box;
+}
+.rd-fields-mapping-label{
+	display: block;
+	float: left;
+	width: 200px;
+	margin-top: 20px;
+}
+#info_create_fields, #info_check_login, #info_mapped_fields, .alert-box{
+	background: antiquewhite;
+    padding: 15px;
+    color: #4f6d83;
+    border-radius: 5px;
+}
+
+#info_check_login, #info_mapped_fields, .alert-box{
+	background: indianred;    
+    color: white;
+}

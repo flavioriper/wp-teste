@@ -1,0 +1,25 @@
+/* Content restriction block */
+.wpuf-content-restriction-title {
+    font-weight: bold;
+    font-family: inherit !important;
+}
+.wpuf-content-restriction-sub-title {
+    font-size: 14px !important;
+    font-family: inherit !important;
+    margin: 0px !important;
+    padding: 15px;
+    border-color: #fde4a2;
+    border-style: dashed;
+    border-width: 0px 1px 1px 1px;
+}
+.wpuf-block-description {
+
+}
+.wpuf-partial-restrict-block-header {
+    display: block;
+    background-color: #fde4a2;
+    font-size: 12px !important;
+    font-family: inherit !important;
+    color:  #b18b33;
+    padding-left: 15px;
+}

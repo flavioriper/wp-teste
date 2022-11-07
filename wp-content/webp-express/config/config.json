@@ -1,0 +1,165 @@
+{
+    "operation-mode": "cdn-friendly",
+    "image-types": 3,
+    "destination-folder": "separate",
+    "destination-extension": "append",
+    "destination-structure": "doc-root",
+    "cache-control": "set",
+    "cache-control-custom": "public, max-age=31536000, stale-while-revalidate=604800, stale-if-error=604800",
+    "cache-control-max-age": "one-week",
+    "cache-control-public": true,
+    "scope": [
+        "themes",
+        "uploads"
+    ],
+    "enable-logging": false,
+    "prevent-using-webps-larger-than-original": true,
+    "enable-redirection-to-converter": false,
+    "only-redirect-to-converter-on-cache-miss": false,
+    "only-redirect-to-converter-for-webp-enabled-browsers": true,
+    "do-not-pass-source-in-query-string": true,
+    "redirect-to-existing-in-htaccess": false,
+    "forward-query-string": true,
+    "enable-redirection-to-webp-realizer": true,
+    "jpeg-encoding": "auto",
+    "jpeg-enable-near-lossless": true,
+    "jpeg-near-lossless": 60,
+    "quality-auto": false,
+    "max-quality": 80,
+    "quality-specific": 70,
+    "png-encoding": "auto",
+    "png-enable-near-lossless": true,
+    "png-near-lossless": 60,
+    "png-quality": 85,
+    "alpha-quality": 80,
+    "converters": [
+        {
+            "converter": "gd",
+            "options": {
+                "skip-pngs": false
+            },
+            "working": true
+        },
+        {
+            "converter": "cwebp",
+            "options": {
+                "use-nice": true,
+                "try-common-system-paths": true,
+                "try-supplied-binary-for-os": true,
+                "method": 6,
+                "low-memory": true,
+                "command-line-options": ""
+            },
+            "working": true
+        },
+        {
+            "converter": "imagick",
+            "working": false
+        },
+        {
+            "converter": "vips",
+            "options": {
+                "smart-subsample": false,
+                "preset": "none"
+            },
+            "working": false
+        },
+        {
+            "converter": "imagemagick",
+            "options": {
+                "use-nice": true
+            },
+            "working": false
+        },
+        {
+            "converter": "graphicsmagick",
+            "options": {
+                "use-nice": true
+            },
+            "working": false
+        },
+        {
+            "converter": "ffmpeg",
+            "options": {
+                "use-nice": true,
+                "method": 4
+            },
+            "working": false
+        },
+        {
+            "converter": "wpc",
+            "working": false,
+            "options": {
+                "api-key": ""
+            }
+        },
+        {
+            "converter": "ewww",
+            "working": false
+        },
+        {
+            "converter": "gmagick",
+            "working": false
+        }
+    ],
+    "metadata": "none",
+    "convert-on-upload": true,
+    "fail": "original",
+    "success-response": "original",
+    "alter-html": {
+        "enabled": true,
+        "only-for-webp-enabled-browsers": true,
+        "only-for-webps-that-exists": false,
+        "replacement": "url",
+        "hooks": "ob",
+        "hostname-aliases": []
+    },
+    "web-service": {
+        "enabled": false,
+        "whitelist": []
+    },
+    "environment-when-config-was-saved": {
+        "doc-root-available": true,
+        "doc-root-resolvable": true,
+        "doc-root-usable-for-structuring": true,
+        "image-roots": [
+            {
+                "id": "uploads",
+                "rel-path": "yuppins/wp-content/uploads",
+                "url": "http://localhost/yuppins/wp-content/uploads"
+            },
+            {
+                "id": "themes",
+                "rel-path": "yuppins/wp-content/themes",
+                "url": "http://localhost/yuppins/wp-content/themes"
+            },
+            {
+                "id": "plugins",
+                "rel-path": "yuppins/wp-content/plugins",
+                "url": "http://localhost/yuppins/wp-content/plugins"
+            },
+            {
+                "id": "wp-content",
+                "rel-path": "yuppins/wp-content",
+                "url": "http://localhost/yuppins/wp-content"
+            },
+            {
+                "id": "index",
+                "rel-path": "yuppins",
+                "url": "http://localhost/yuppins/app"
+            }
+        ],
+        "document-root": null
+    },
+    "base-htaccess-on-these-capability-tests": {
+        "passThroughHeaderWorking": false,
+        "passThroughEnvWorking": true,
+        "modHeaderWorking": true,
+        "canRunTestScriptInWOD": true,
+        "canRunTestScriptInWOD2": true
+    },
+    "document-root": "C:/xampp/htdocs",
+    "paths-used-in-htaccess": {
+        "wod-url-path": "yuppins/wp-content/plugins/webp-express/wod/webp-on-demand.php"
+    }
+}

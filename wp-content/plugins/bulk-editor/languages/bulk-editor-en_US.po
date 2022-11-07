@@ -1,0 +1,1300 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Text in echo
+#: bulk-editor/index.php:281
+msgid "(filtered from _MAX_ total entries)"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/history/views/panel.php:21
+msgid "ALL"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/views/wpbe.php:46
+msgid "ATTENTION! Your version of the WordPress is obsolete. There is no warranty of normal working with the plugin!!"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/bulk/bulk.php:53
+msgid "ATTENTION: Bulk operation is going!"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/export/export.php:33
+msgid "ATTENTION: Export operation is going!"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/history/history.php:50
+msgid "ATTENTION: History operation is going!"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/meta/views/panel.php:16
+msgid "Add"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/meta/views/panel.php:14
+msgid "Add Custom key by hands"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/views/wpbe.php:213
+msgid "Add Image"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/views/wpbe.php:220
+msgid "Add selected images to the already existed ones"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/views/wpbe.php:289
+msgid "Append array key/value"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/views/wpbe.php:290
+msgid "Append object set"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/index.php:254
+#: bulk-editor/views/wpbe.php:158
+#: bulk-editor/views/wpbe.php:191
+#: bulk-editor/views/wpbe.php:241
+#: bulk-editor/views/wpbe.php:296
+msgid "Apply"
+msgstr ""
+
+#. Text in function
+#: bulk-editor/ext/filters/filters.php:585
+msgid "BEGIN"
+msgstr ""
+
+#. Text in function
+#: bulk-editor/classes/rate_alert.php:67
+msgid "Bulk Editor SUPPORT"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/bulk/bulk.php:48
+#: bulk-editor/ext/bulk/views/panel.php:115
+#: bulk-editor/ext/bulk/views/panel.php:117
+msgid "Bulk deleting"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/bulk/bulk.php:50
+msgid "Bulk editing"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/history/views/list.php:32
+msgid "Bulk operation"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/index.php:255
+#: bulk-editor/views/wpbe.php:157
+#: bulk-editor/views/wpbe.php:190
+#: bulk-editor/views/wpbe.php:240
+#: bulk-editor/views/wpbe.php:295
+#: bulk-editor/views/wpbe.php:760
+msgid "Cancel"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/index.php:256
+msgid "Canceled"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/history/views/panel.php:25
+msgid "Clear the History"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/info/views/panel.php:71
+msgid "Click ID of the post in the Posts Editor to see it on the site front."
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/fprofiles/views/panel.php:78
+#: bulk-editor/views/wpbe.php:706
+msgid "Close"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/views/parts/top_panel.php:20
+msgid "Close the panel"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/views/wpbe.php:643
+msgid "Columns profile"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/views/parts/advanced-table.php:14
+#: bulk-editor/views/wpbe.php:650
+msgid "Columns profiles"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/views/elements/draw_popup_editor_btn.php:8
+msgid "Content"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/views/wpbe.php:705
+#: bulk-editor/views/wpbe.php:759
+msgid "Create"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/index.php:259
+msgid "Created!"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/index.php:258
+msgid "Creating"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/export/views/panel.php:30
+msgid "Current export functionality is just for simple operations and data share, if you need something complex find and use especial plugin for Export WordPress data!"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/views/wpbe.php:221
+msgid "Delete selected images from the posts"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/views/wpbe.php:222
+msgid "Delete selected images from the posts, also delete them from the media library forever"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/views/parts/advanced-table.php:24
+msgid "Delete selected post(s)"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/index.php:263
+msgid "Deleted!"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/index.php:262
+msgid "Deleting"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/views/elements/multi_select.php:27
+msgid "Deselect all"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/views/parts/post-gallery.php:17
+msgid "Detach image of the post"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/bulk/views/panel.php:104
+msgid "Do Bulk Edit"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/bulk/views/panel.php:146
+#: bulk-editor/ext/export/views/panel.php:67
+#: bulk-editor/ext/filters/views/panel.php:36
+#: bulk-editor/ext/history/views/panel.php:7
+#: bulk-editor/ext/meta/views/panel.php:7
+#: bulk-editor/views/wpbe.php:277
+#: bulk-editor/views/wpbe.php:337
+#: bulk-editor/views/wpbe.php:495
+msgid "Documentation"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/views/parts/advanced-table.php:21
+msgid "Duplicate selected post(s)."
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/index.php:261
+msgid "Duplicated!"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/index.php:260
+msgid "Duplicating"
+msgstr ""
+
+#. Text in function
+#: bulk-editor/ext/filters/filters.php:585
+msgid "END"
+msgstr ""
+
+#. Text in function
+#: bulk-editor/ext/filters/filters.php:585
+msgid "EXACT"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/meta/meta.php:50
+msgid "Enter a post ID!"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/index.php:243
+msgid "Error"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/export/views/panel.php:22
+msgid "Export to CSV"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/export/views/panel.php:23
+msgid "Export to Excel"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/export/export.php:32
+msgid "Exported"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/export/export.php:31
+msgid "Exporting"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/index.php:242
+msgid "Failed"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/index.php:269
+msgid "Fill up the data please!"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/filters/views/panel.php:31
+#: bulk-editor/ext/history/views/panel.php:74
+msgid "Filter"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/filters/filters.php:36
+msgid "Filtered! Table redrawing ..."
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/filters/filters.php:35
+msgid "Filtering"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/fprofiles/fprofiles.php:34
+#: bulk-editor/ext/fprofiles/views/panel.php:13
+msgid "Filters profiles"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/index.php:285
+msgid "First"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/views/wpbe.php:495
+msgid "General settings"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/meta/views/panel.php:23
+msgid "Get"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/meta/views/panel.php:21
+msgid "Get meta keys from any post by its ID"
+msgstr ""
+
+#. Text in function
+#: bulk-editor/classes/rate_alert.php:43
+msgid "Hello! Looks like you using <b>Bulk Editor</b> for some time and I hope this software helped you with your business. If you happy with the plugin functionality and like Bulk Editor - rate please WPBE with 5-stars, also share your opinion and ideas with us. Thank you!<br /> P.S. If you have troubles you can always ask %s about help."
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/info/views/panel.php:7
+msgid "Help"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/views/wpbe.php:651
+msgid "Here you can load previously saved columns profile. After pressing on the load button, page reloading will start immediately!"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/fprofiles/views/panel.php:21
+msgid "Here you can load previously saved filters profile. After pressing on the load button, Posts Editor data reloading will start immediately!"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/views/wpbe.php:750
+msgid "Here you can select parent for the the new term (optionally)"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/views/wpbe.php:693
+msgid "Here you can type any title and save current columns set and their order. Type here any title and then press Save button OR press Enter button on your keyboard!"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/fprofiles/views/panel.php:55
+msgid "Here you can type any title and save current filters set. Type here any title and then press Save button OR press Enter button on your keyboard!"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/views/wpbe.php:739
+msgid "Here you can write slug for the the new term (optionally). Use comma for slug(s) when you create some on the same time terms, or leave slug field empty to create slug(s) automatically"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/views/wpbe.php:728
+msgid "Here you can write title for the new term. Use comma to create some new tags on the same time! New terms with already existed names will not be created!"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/index.php:274
+msgid "Hide: Filters/Bulk Edit/Export"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/history/views/panel.php:7
+msgid "History"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/history/history.php:48
+msgid "History clearing ..."
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/history/history.php:49
+msgid "History is cleared!"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/history/views/list.php:114
+msgid "History is empty!"
+msgstr ""
+
+#. Text in function
+#: bulk-editor/ext/filters/filters.php:585
+msgid "ID"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/info/views/panel.php:43
+msgid "If to click on an empty space of the black wp-admin bar, it will get you back to the top of the page"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/meta/views/panel.php:10
+msgid "In FREE version of the plugin it is possible manipulate with 2 meta fields."
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/fprofiles/views/panel.php:24
+#: bulk-editor/views/wpbe.php:654
+msgid "In FREE version of the plugin it is possible to create 2 profiles."
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/history/views/panel.php:11
+msgid "In FREE version of the plugin it is possible to roll back 2 last operations."
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/index.php:294
+msgid "In FREE version of the plugin you can create one profile only!"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/bulk/views/panel.php:131
+msgid "In red containers wrapped fields which are not possible modify in bulk in FREE version of the plugin!"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/bulk/views/panel.php:134
+msgid "In the case of an aborted bulk-operation you can roll back changes in the tab History"
+msgstr ""
+
+#. Text in function
+#: bulk-editor/classes/rate_alert.php:63
+msgid "It is done!"
+msgstr ""
+
+#. Text in function
+#: bulk-editor/ext/filters/filters.php:585
+msgid "LIKE"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/index.php:286
+msgid "Last"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/index.php:251
+msgid "Loaded"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/index.php:250
+msgid "Loading"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/index.php:282
+msgid "Loading..."
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/bulk/views/panel.php:210
+#: bulk-editor/ext/bulk/views/panel.php:244
+msgid "MENU ORDER"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/index.php:293
+msgid "Maybe term(s) with such name(s) already exists!"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/filters/views/panel.php:243
+msgid "Menu order from"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/filters/views/panel.php:248
+msgid "Menu order to"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/meta/views/panel.php:7
+msgid "Meta Fields"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/meta/meta.php:49
+msgid "Meta key cannot be empty!"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/info/views/panel.php:119
+msgid "Minimal PHP version is"
+msgstr ""
+
+#. Text in function
+#: bulk-editor/ext/filters/filters.php:585
+msgid "NOT"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/fprofiles/views/panel.php:54
+msgid "New Filter Profile"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/views/parts/advanced-table.php:20
+msgid "New Post"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/views/wpbe.php:692
+msgid "New Profile"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/views/wpbe.php:727
+msgid "New Term(s)"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/meta/meta.php:52
+msgid "New meta key"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/history/views/panel.php:88
+#: bulk-editor/index.php:287
+msgid "Next"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/views/wpbe.php:12
+msgid "No any post type permitted to edit for site editors. Ask please site administrators for details!"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/index.php:278
+msgid "No data available in the table"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/index.php:284
+msgid "No matching records found"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/meta/meta.php:51
+msgid "No meta keys found!"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/views/wpbe.php:341
+msgid "Note: if horizontal scroll disappeared when it must be visible, click on tab Posts Editor to make it visible"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/bulk/views/panel.php:128
+msgid "Notes"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/views/wpbe.php:749
+msgid "Parent of the new term(s)"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/index.php:275
+msgid "Per page"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/history/views/panel.php:16
+msgid "Per page:"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/filters/views/panel.php:257
+msgid "Post parent from"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/filters/views/panel.php:262
+msgid "Post parent to"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/views/elements/draw_popup_editor_btn.php:7
+msgid "Post: %s"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/views/wpbe.php:64
+msgid "Posts Editor"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/views/wpbe.php:284
+msgid "Prepend array key/value"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/views/wpbe.php:285
+msgid "Prepend object set"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/history/views/panel.php:86
+msgid "Prev"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/index.php:288
+msgid "Previous"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/index.php:283
+msgid "Processing..."
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/fprofiles/views/panel.php:20
+msgid "Profiles"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/views/wpbe.php:140
+msgid "Quick search"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/views/wpbe.php:141
+msgid "Quick terms search by its name"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/views/wpbe.php:274
+msgid "REMEMBER: sequence of data maybe have sense (and maybe not), so be attentive! Do not mix in the same popup window data of array and object data!"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/info/views/panel.php:120
+msgid "Recommended PHP version"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/info/views/panel.php:118
+msgid "Recommended min RAM"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/views/wpbe.php:219
+msgid "Replace all posts images by the selected ones"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/info/views/panel.php:116
+msgid "Requirements"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/filters/views/panel.php:32
+#: bulk-editor/ext/history/views/panel.php:74
+msgid "Reset"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/views/parts/advanced-table.php:27
+msgid "Reset filters"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/index.php:265
+msgid "Reseted!"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/index.php:264
+msgid "Reseting"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/history/history.php:46
+msgid "Reverted!"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/history/history.php:45
+msgid "Reverting"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/fprofiles/views/panel.php:77
+msgid "Save"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/views/wpbe.php:571
+msgid "Save all settings"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/meta/views/panel.php:47
+msgid "Save meta fields"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/index.php:252
+msgid "Saved"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/index.php:253
+msgid "Saving"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/views/parts/advanced-table.php:45
+msgid "Scroll left"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/views/parts/advanced-table.php:44
+msgid "Scroll right"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/index.php:241
+msgid "Search"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/info/views/panel.php:66
+msgid "Search by posts slugs, which are in non-latin symbols does not work because in the data base they are keeps in the encoded format!"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/views/elements/multi_select.php:26
+msgid "Select all"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/views/wpbe.php:147
+msgid "Select all terms"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/index.php:276
+msgid "Select background color"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/fprofiles/views/panel.php:33
+msgid "Select filter profile to load"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/views/wpbe.php:672
+msgid "Select profile to load"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/index.php:277
+msgid "Select text color"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/views/parts/advanced-table.php:13
+msgid "Set full width"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/views/wpbe.php:71
+msgid "Settings"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/export/export.php:30
+msgid "Should the export be started?"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/views/wpbe.php:382
+msgid "Show all columns"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/index.php:273
+#: bulk-editor/views/parts/top_panel.php:24
+msgid "Show: Filters/Bulk Edit/Export"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/index.php:280
+msgid "Showing 0 to 0 of 0 entries"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/index.php:279
+msgid "Showing _START_ to _END_ of _TOTAL_ entries"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/views/wpbe.php:551
+msgid "Site editors post types"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/views/wpbe.php:738
+msgid "Slug(s) of the new term"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/info/views/panel.php:40
+msgid "Some little hints"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/info/views/panel.php:126
+msgid "Some useful plugins for your site"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/index.php:257
+msgid "Sure?"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/bulk/views/panel.php:208
+#: bulk-editor/ext/bulk/views/panel.php:242
+msgid "TITLE"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/index.php:272
+msgid "Text search by title or SKU"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/index.php:296
+msgid "This field is deactivated in FREE version for bulk edit!"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/index.php:246
+msgid "This is not deletable!"
+msgstr ""
+
+#. Text in function
+#: bulk-editor/ext/filters/filters.php:585
+msgid "Title"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/info/views/panel.php:80
+msgid "To select range of posts using checkboxes - select first post, press SHIFT key on your PC keyboard and click last post."
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/views/wpbe.php:793
+msgid "UPGRADE TO FULL VERSION"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/views/parts/advanced-table.php:26
+msgid "Uncheck all selected posts"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/index.php:268
+msgid "Upload file"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/index.php:266
+msgid "Upload image"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/index.php:267
+msgid "Upload images"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/info/views/panel.php:76
+msgid "Use Enter keyboard button in the Posts Editor for moving to the next posts row cell with saving of changes while edit textinputs. Use arrow Up or arrow Down keyboard buttons in the Posts Editor for moving to the next/previous posts row without saving of changes."
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/views/wpbe.php:798
+#: bulk-editor/views/wpbe.php:799
+msgid "WOOBE - WooCommerce Bulk Editor Professional"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/views/wpbe.php:794
+msgid "WPBE - Posts Bulk Editor Professional"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/history/history.php:135
+msgid "WPBE cannot create the database table! Make sure that your mysql user has the CREATE privilege! Do it manually using your host panel phpmyadmin!"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/views/wpbe.php:803
+#: bulk-editor/views/wpbe.php:804
+msgid "WPCS - WordPress Currency Switcher"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/history/history.php:47
+msgid "Wait please while data reverting is going!"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/views/wpbe.php:559
+msgid "What post types can edit site editors in the tab Posts Editor. Use comma, example: post,car,page"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/bulk/bulk.php:46
+msgid "Will be edited next:"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/views/elements/draw_calendar.php:9
+msgid "Will never reset published date, and for modified date field  will set current time!"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/history/views/panel.php:8
+msgid "Works for edit-operations and not work with delete-operations!"
+msgstr ""
+
+#. Text in function
+#: bulk-editor/classes/rate_alert.php:59
+msgid "Write marvellous review about WPBE features"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/fprofiles/views/panel.php:69
+msgid "You can save filter profile only when you applying filters to the posts."
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/views/wpbe.php:37
+msgid "Your settings have been saved."
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/history/views/panel.php:33
+msgid "all"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/bulk/views/panel.php:388
+msgid "append"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/index.php:295
+msgid "append sub item"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/meta/views/panel.php:84
+msgid "array"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/history/views/panel.php:35
+msgid "bulk operations"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/history/views/panel.php:61
+msgid "by date from"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/history/views/panel.php:66
+msgid "by date to"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/history/views/panel.php:71
+msgid "by fields"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/meta/views/panel.php:83
+msgid "calendar"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/views/elements/multi_select.php:32
+msgid "cancel"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/export/views/panel.php:25
+msgid "cancel export"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/meta/views/panel.php:82
+msgid "checkbox"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/history/views/panel.php:63
+#: bulk-editor/ext/history/views/panel.php:68
+#: bulk-editor/views/elements/draw_calendar.php:9
+msgid "clear"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/views/wpbe.php:371
+msgid "columns finder ..."
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/views/wpbe.php:145
+msgid "create new term"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/history/views/list.php:94
+#: bulk-editor/ext/history/views/list.php:98
+#: bulk-editor/ext/meta/views/panel.php:97
+#: bulk-editor/index.php:244
+msgid "delete"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/export/views/panel.php:24
+msgid "download"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/meta/views/panel.php:67
+#: bulk-editor/views/parts/post-upsells.php:20
+#: bulk-editor/views/wpbe.php:318
+#: bulk-editor/views/wpbe.php:399
+msgid "drag and drop"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/calculator/views/panel.php:18
+msgid "enter operation value"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/meta/views/panel.php:22
+msgid "enter post ID"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/meta/views/panel.php:74
+msgid "enter title"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/index.php:245
+msgid "ignore"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/bulk/views/panel.php:230
+msgid "ignore case"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/views/wpbe.php:319
+#: bulk-editor/views/wpbe.php:327
+msgid "key"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/fprofiles/views/panel.php:43
+#: bulk-editor/views/wpbe.php:682
+msgid "load"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/meta/views/panel.php:67
+#: bulk-editor/index.php:240
+#: bulk-editor/views/parts/post-upsells.php:20
+#: bulk-editor/views/wpbe.php:318
+#: bulk-editor/views/wpbe.php:399
+msgid "move"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/bulk/views/panel.php:218
+#: bulk-editor/views/elements/multi_select.php:42
+msgid "new"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/index.php:249
+msgid "no data"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/index.php:247
+#: bulk-editor/views/elements/draw_attribute_list_btn.php:13
+#: bulk-editor/views/elements/draw_taxonomy_popup_btn.php:14
+msgid "no items"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/classes/helper.php:323
+msgid "no rounding"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/index.php:248
+msgid "none"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/meta/views/panel.php:92
+msgid "number"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/bulk/views/panel.php:40
+msgid "numeric"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/history/views/panel.php:87
+msgid "of"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/bulk/views/panel.php:476
+msgid "other"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/bulk/views/panel.php:115
+#: bulk-editor/views/wpbe.php:418
+#: bulk-editor/views/wpbe.php:520
+msgid "premium version"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/bulk/views/panel.php:217
+msgid "prepend"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/filters/filters.php:604
+msgid "quick search by ..."
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/bulk/views/panel.php:390
+#: bulk-editor/ext/fprofiles/views/panel.php:44
+#: bulk-editor/views/wpbe.php:683
+msgid "remove"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/bulk/views/panel.php:389
+msgid "replace"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/bulk/views/panel.php:235
+msgid "replace to text"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/history/views/list.php:93
+#: bulk-editor/ext/history/views/list.php:97
+msgid "revert"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/bulk/views/panel.php:229
+msgid "same case"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/views/elements/multi_select.php:37
+msgid "save"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/views/parts/advanced-table.php:38
+msgid "select all variations"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/bulk/views/panel.php:176
+#: bulk-editor/ext/bulk/views/panel.php:198
+#: bulk-editor/ext/bulk/views/panel.php:424
+#: bulk-editor/ext/bulk/views/panel.php:370
+#: bulk-editor/ext/bulk/views/panel.php:568
+#: bulk-editor/ext/bulk/views/panel.php:525
+msgid "select it to use"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/bulk/views/panel.php:492
+msgid "select thumbnail"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/views/wpbe.php:146
+msgid "selected only"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/history/views/panel.php:34
+msgid "solo operations"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/bulk/views/panel.php:55
+msgid "statuses and types"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/meta/views/panel.php:91
+msgid "string"
+msgstr ""
+
+#. Text in function
+#: bulk-editor/classes/rate_alert.php:43
+msgid "support"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/bulk/views/panel.php:336
+msgid "taxonomies"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/bulk/views/panel.php:105
+msgid "terminate bulk operation"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/fprofiles/fprofiles.php:27
+#: bulk-editor/ext/info/info.php:20
+msgid "test"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/bulk/views/panel.php:23
+msgid "text"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/meta/views/panel.php:81
+msgid "textarea"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/meta/views/panel.php:80
+msgid "textinput"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/views/wpbe.php:310
+#: bulk-editor/views/wpbe.php:328
+msgid "value"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/ext/bulk/views/panel.php:207
+#: bulk-editor/ext/bulk/views/panel.php:241
+msgid "variable"
+msgstr ""
+
+#. Text in echo
+#: bulk-editor/views/wpbe.php:417
+msgid "visible for the site editor"
+msgstr ""

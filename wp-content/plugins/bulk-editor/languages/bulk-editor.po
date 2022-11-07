@@ -1,0 +1,1844 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WPBE - WordPress Posts Bulk Editor and Posts Manager "
+"Professional\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-27 21:04+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.5; wp-5.8.2\n"
+"X-Domain: bulk-editor"
+
+#: ext/meta/meta.php:219 ext/filters/views/panel.php:404
+#: ext/filters/views/panel.php:422
+#, php-format
+msgid "%s from"
+msgstr ""
+
+#: ext/meta/meta.php:220 ext/filters/views/panel.php:411
+#: ext/filters/views/panel.php:429
+#, php-format
+msgid "%s to"
+msgstr ""
+
+#: index.php:286
+msgid "(filtered from _MAX_ total entries)"
+msgstr ""
+
+#: ext/filters/views/panel.php:148
+#, php-format
+msgid "[%s] content ..."
+msgstr ""
+
+#: ext/filters/views/panel.php:152
+#, php-format
+msgid "[%s] excerpt ..."
+msgstr ""
+
+#: ext/filters/views/panel.php:160
+#, php-format
+msgid "[%s] password ..."
+msgstr ""
+
+#: ext/filters/views/panel.php:156
+#, php-format
+msgid "[%s] slug ..."
+msgstr ""
+
+#: ext/filters/views/panel.php:272
+#, php-format
+msgid "[%s] status"
+msgstr ""
+
+#: ext/filters/views/panel.php:144
+#, php-format
+msgid "[%s] title ..."
+msgstr ""
+
+#: ext/bulk/bulk.php:49
+#, php-format
+msgid "[%s](s) deleted!"
+msgstr ""
+
+#: ext/bulk/bulk.php:52
+#, php-format
+msgid "[%s](s) edited!"
+msgstr ""
+
+#: ext/bulk/bulk.php:51
+#, php-format
+msgid "[%s](s) edited! Table redrawing ..."
+msgstr ""
+
+#: data/fields.php:147
+msgid ""
+"A ping is a [this site has new content] notification that invites search "
+"engine bots to visit your blog."
+msgstr ""
+
+#: views/wpbe.php:110
+msgid "Actions"
+msgstr ""
+
+#: ext/meta/views/panel.php:16
+msgid "Add"
+msgstr ""
+
+#: ext/meta/views/panel.php:14
+msgid "Add Custom key by hands"
+msgstr ""
+
+#: data/settings.php:63
+msgid "Add fields to the quick search"
+msgstr ""
+
+#: views/wpbe.php:215
+msgid "Add Image"
+msgstr ""
+
+#: views/wpbe.php:222
+msgid "Add selected images to the already existed ones"
+msgstr ""
+
+#: data/settings.php:64
+msgid ""
+"Adds more fields to quick search fields drop-down on the tools panel. Works "
+"only for text fields. Syntax: post_name:Post slug,post_content:Content"
+msgstr ""
+
+#: ext/history/views/panel.php:21
+msgid "ALL"
+msgstr ""
+
+#: ext/history/views/panel.php:33
+msgid "all"
+msgstr ""
+
+#: index.php:294 ext/bulk/views/panel.php:11 ext/export/views/panel.php:10
+#, php-format
+msgid "all the [%s] on the site"
+msgstr ""
+
+#: ext/bulk/views/panel.php:216 ext/bulk/views/panel.php:428
+msgid "append"
+msgstr ""
+
+#: views/wpbe.php:291
+msgid "Append array key/value"
+msgstr ""
+
+#: views/wpbe.php:292
+msgid "Append object set"
+msgstr ""
+
+#: index.php:300
+msgid "append sub item"
+msgstr ""
+
+#: index.php:259 views/wpbe.php:160 views/wpbe.php:193 views/wpbe.php:243
+#: views/wpbe.php:298
+msgid "Apply"
+msgstr ""
+
+#: views/elements/draw_meta_popup_editor_btn.php:20
+msgid "Array"
+msgstr ""
+
+#: ext/meta/views/panel.php:90
+msgid "array"
+msgstr ""
+
+#: ext/info/views/panel.php:26
+msgid "ask for support here"
+msgstr ""
+
+#: views/wpbe.php:47
+msgid ""
+"ATTENTION! Your version of the WordPress is obsolete. There is no warranty "
+"of normal working with the plugin!!"
+msgstr ""
+
+#: ext/bulk/bulk.php:53
+msgid "ATTENTION: Bulk operation is going!"
+msgstr ""
+
+#: ext/export/export.php:33
+msgid "ATTENTION: Export operation is going!"
+msgstr ""
+
+#: ext/history/history.php:50
+msgid "ATTENTION: History operation is going!"
+msgstr ""
+
+#: data/fields.php:220
+msgid "Author"
+msgstr ""
+
+#: ext/filters/filters.php:613 ext/filters/views/panel.php:132
+msgid "BEGIN"
+msgstr ""
+
+#: ext/bulk/bulk.php:62 ext/info/views/panel.php:63
+msgid "binded editing"
+msgstr ""
+
+#: ext/bulk/bulk.php:48 ext/bulk/views/panel.php:115
+#: ext/bulk/views/panel.php:117
+msgid "Bulk deleting"
+msgstr ""
+
+#: ext/bulk/bulk.php:35
+msgid "Bulk Edit"
+msgstr ""
+
+#: ext/bulk/bulk.php:50
+msgid "Bulk editing"
+msgstr ""
+
+#: ext/bulk/views/panel.php:11
+#, php-format
+msgid "Bulk editing will be applied to: %s"
+msgstr ""
+
+#: ext/history/views/list.php:32
+msgid "Bulk operation"
+msgstr ""
+
+#: ext/history/views/panel.php:35
+msgid "bulk operations"
+msgstr ""
+
+#: ext/filters/views/panel.php:362
+msgid "By author"
+msgstr ""
+
+#: ext/history/views/panel.php:42
+msgid "by Author"
+msgstr ""
+
+#: ext/history/views/panel.php:61
+msgid "by date from"
+msgstr ""
+
+#: ext/history/views/panel.php:66
+msgid "by date to"
+msgstr ""
+
+#: ext/history/views/panel.php:71
+msgid "by fields"
+msgstr ""
+
+#: ext/meta/views/panel.php:89
+msgid "calendar"
+msgstr ""
+
+#: data/fields.php:128
+msgid "Can users comment post or not."
+msgstr ""
+
+#: index.php:260 views/wpbe.php:159 views/wpbe.php:192 views/wpbe.php:242
+#: views/wpbe.php:297 views/wpbe.php:818
+msgid "Cancel"
+msgstr ""
+
+#: views/elements/multi_select.php:32
+msgid "cancel"
+msgstr ""
+
+#: ext/export/views/panel.php:27
+msgid "cancel export"
+msgstr ""
+
+#: index.php:261
+msgid "Canceled"
+msgstr ""
+
+#: ext/meta/views/panel.php:88
+msgid "checkbox"
+msgstr ""
+
+#: data/fields.php:28
+msgid ""
+"Checkboxes for the posts selection. Use SHIFT button on your keyboard to "
+"select multiple rows."
+msgstr ""
+
+#: views/elements/draw_calendar.php:9 ext/history/views/panel.php:63
+#: ext/history/views/panel.php:68
+msgid "clear"
+msgstr ""
+
+#: ext/history/views/panel.php:25
+msgid "Clear the History"
+msgstr ""
+
+#: ext/info/views/panel.php:75
+msgid "Click ID of the post in the Posts Editor to see it on the site front."
+msgstr ""
+
+#: views/wpbe.php:764 ext/fprofiles/views/panel.php:74
+msgid "Close"
+msgstr ""
+
+#: views/parts/top_panel.php:20
+msgid "Close the panel"
+msgstr ""
+
+#: data/fields.php:135 data/fields.php:154
+msgid "Closed"
+msgstr ""
+
+#: views/wpbe.php:373
+msgid "columns finder ..."
+msgstr ""
+
+#: views/wpbe.php:705
+msgid "Columns profile"
+msgstr ""
+
+#: views/wpbe.php:712 views/parts/advanced-table.php:14
+msgid "Columns profiles"
+msgstr ""
+
+#: views/wpbe.php:370
+#, php-format
+msgid "Columns settings%s, columns enabled %s"
+msgstr ""
+
+#: ext/history/views/list.php:83
+#, php-format
+msgid "columns: %s"
+msgstr ""
+
+#: data/fields.php:127 ext/filters/views/panel.php:287
+msgid "Comment status"
+msgstr ""
+
+#: ext/bulk/bulk.php:575
+msgid "comment status"
+msgstr ""
+
+#: data/fields.php:77 views/elements/draw_popup_editor_btn.php:7
+msgid "Content"
+msgstr ""
+
+#: ext/bulk/bulk.php:540
+msgid "content"
+msgstr ""
+
+#: views/elements/draw_popup_editor_btn.php:5
+msgid "Content[empty]"
+msgstr ""
+
+#: views/wpbe.php:763 views/wpbe.php:817
+msgid "Create"
+msgstr ""
+
+#: views/wpbe.php:147
+msgid "create new term"
+msgstr ""
+
+#: index.php:264
+msgid "Created!"
+msgstr ""
+
+#: index.php:263
+msgid "Creating"
+msgstr ""
+
+#: ext/export/views/panel.php:32
+msgid ""
+"Current export functionality is just for simple operations and data share, "
+"if you need something complex find and use especial plugin for Export "
+"WordPress data!"
+msgstr ""
+
+#: views/wpbe.php:717
+#, php-format
+msgid "Current profile is: %s %s"
+msgstr ""
+
+#: ext/info/views/panel.php:33
+#, php-format
+msgid ""
+"Current version of the plugin is FREE. See the difference between FREE and "
+"PREMIUM versions %s"
+msgstr ""
+
+#: data/fields.php:208
+msgid "Custom ordering position."
+msgstr ""
+
+#: data/fields.php:260
+msgid "Date modified"
+msgstr ""
+
+#: data/fields.php:273
+msgid "Date modified GMT"
+msgstr ""
+
+#: data/fields.php:233
+msgid "Date Published"
+msgstr ""
+
+#: data/fields.php:246
+msgid "Date Published GMT"
+msgstr ""
+
+#: ext/bulk/bulk.php:602 ext/bulk/bulk.php:623 ext/meta/meta.php:304
+msgid "decrease by %"
+msgstr ""
+
+#: ext/bulk/bulk.php:600 ext/bulk/bulk.php:608 ext/bulk/bulk.php:621
+#: ext/bulk/bulk.php:633 ext/meta/meta.php:302 ext/bulk/views/panel.php:500
+msgid "decrease by value"
+msgstr ""
+
+#: classes/models/profiles.php:45
+msgid "Default"
+msgstr ""
+
+#: data/settings.php:10
+msgid "Default posts count per page"
+msgstr ""
+
+#: data/settings.php:23
+msgid "Default sort"
+msgstr ""
+
+#: data/settings.php:16
+msgid "Default sort by"
+msgstr ""
+
+#: index.php:249 ext/bulk/bulk.php:609 ext/meta/views/panel.php:103
+#: ext/history/views/list.php:94 ext/history/views/list.php:98
+msgid "delete"
+msgstr ""
+
+#: ext/bulk/views/panel.php:120
+#, php-format
+msgid "Delete [%s]!"
+msgstr ""
+
+#: views/wpbe.php:223
+msgid "Delete selected images from the posts"
+msgstr ""
+
+#: views/wpbe.php:224
+msgid ""
+"Delete selected images from the posts, also delete them from the media "
+"library forever"
+msgstr ""
+
+#: views/parts/advanced-table.php:24
+msgid "Delete selected post(s)"
+msgstr ""
+
+#: index.php:268
+msgid "Deleted!"
+msgstr ""
+
+#: index.php:267
+msgid "Deleting"
+msgstr ""
+
+#: views/elements/multi_select.php:27
+msgid "Deselect all"
+msgstr ""
+
+#: views/parts/post-gallery.php:17
+msgid "Detach image of the post"
+msgstr ""
+
+#: ext/bulk/views/panel.php:104
+msgid "Do Bulk Edit"
+msgstr ""
+
+#: index.php:230 views/wpbe.php:279 views/wpbe.php:339 views/wpbe.php:497
+#: ext/bulk/views/panel.php:146 ext/filters/views/panel.php:36
+#: ext/meta/views/panel.php:7 ext/export/views/panel.php:69
+#: ext/history/views/panel.php:7
+msgid "Documentation"
+msgstr ""
+
+#: ext/info/views/panel.php:14
+msgid "documentation"
+msgstr ""
+
+#: ext/export/views/panel.php:25
+msgid "download"
+msgstr ""
+
+#: ext/export/views/panel.php:26
+msgid "download XML"
+msgstr ""
+
+#: views/wpbe.php:310 views/wpbe.php:320 views/wpbe.php:401
+#: views/parts/post-upsells.php:20 ext/meta/views/panel.php:73
+msgid "drag and drop"
+msgstr ""
+
+#: views/parts/advanced-table.php:21
+msgid "Duplicate selected post(s)."
+msgstr ""
+
+#: index.php:266
+msgid "Duplicated!"
+msgstr ""
+
+#: index.php:265
+msgid "Duplicating"
+msgstr ""
+
+#: views/wpbe.php:586
+msgid "Each post type has its own set of columns and meta fields."
+msgstr ""
+
+#: index.php:508
+msgid "Editing of the post on its page"
+msgstr ""
+
+#: ext/filters/views/panel.php:134 ext/filters/views/panel.php:376
+msgid "Empty"
+msgstr ""
+
+#: ext/filters/filters.php:614 ext/filters/views/panel.php:133
+msgid "END"
+msgstr ""
+
+#: ext/meta/meta.php:51
+msgid "Enter a post ID!"
+msgstr ""
+
+#: index.php:276
+#, php-format
+msgid "Enter how many new [%s](s) to create!"
+msgstr ""
+
+#: index.php:275
+#, php-format
+msgid "Enter how many time duplicate selected [%s](s)!"
+msgstr ""
+
+#: ext/calculator/views/panel.php:18
+msgid "enter operation value"
+msgstr ""
+
+#: ext/meta/views/panel.php:22
+msgid "enter post ID"
+msgstr ""
+
+#: ext/meta/views/panel.php:80
+msgid "enter title"
+msgstr ""
+
+#: index.php:248
+msgid "Error"
+msgstr ""
+
+#: ext/filters/filters.php:611 ext/filters/views/panel.php:130
+#: ext/filters/views/panel.php:141
+msgid "EXACT"
+msgstr ""
+
+#: ext/meta/meta.php:197
+msgid "EXACT (=)"
+msgstr ""
+
+#: data/fields.php:88
+msgid "Excerpt"
+msgstr ""
+
+#: ext/bulk/bulk.php:544
+msgid "excerpt"
+msgstr ""
+
+#: ext/export/export.php:20
+msgid "Export"
+msgstr ""
+
+#: ext/export/views/panel.php:22
+msgid "Export to CSV"
+msgstr ""
+
+#: ext/export/views/panel.php:24
+msgid "Export to Excel"
+msgstr ""
+
+#: ext/export/views/panel.php:23
+msgid "Export to XML"
+msgstr ""
+
+#: ext/export/views/panel.php:10
+#, php-format
+msgid "Export will be applied to: %s"
+msgstr ""
+
+#: ext/export/export.php:32
+msgid "Exported"
+msgstr ""
+
+#: ext/export/export.php:31
+msgid "Exporting"
+msgstr ""
+
+#: index.php:247
+msgid "Failed"
+msgstr ""
+
+#: ext/info/views/panel.php:22
+msgid "FAQ"
+msgstr ""
+
+#: index.php:274
+msgid "Fill up the data please!"
+msgstr ""
+
+#: ext/filters/views/panel.php:31 ext/history/views/panel.php:74
+msgid "Filter"
+msgstr ""
+
+#: ext/filters/filters.php:36
+msgid "Filtered! Table redrawing ..."
+msgstr ""
+
+#: ext/filters/filters.php:35
+msgid "Filtering"
+msgstr ""
+
+#: ext/filters/filters.php:24
+msgid "Filters"
+msgstr ""
+
+#: ext/fprofiles/fprofiles.php:34 ext/fprofiles/views/panel.php:13
+msgid "Filters profiles"
+msgstr ""
+
+#: index.php:290
+msgid "First"
+msgstr ""
+
+#: classes/models/posts.php:150
+msgid "forbidden"
+msgstr ""
+
+#: views/wpbe.php:497
+msgid "General settings"
+msgstr ""
+
+#: ext/meta/views/panel.php:23
+msgid "Get"
+msgstr ""
+
+#: ext/meta/views/panel.php:21
+msgid "Get meta keys from any post by its ID"
+msgstr ""
+
+#: index.php:1195
+msgid "Give Feedback"
+msgstr ""
+
+#: ext/info/info.php:12 ext/info/views/panel.php:7
+msgid "Help"
+msgstr ""
+
+#: ext/bulk/views/panel.php:317 ext/info/views/panel.php:35
+msgid "here"
+msgstr ""
+
+#: views/wpbe.php:713
+msgid ""
+"Here you can load previously saved columns profile. After pressing on the "
+"load button, page reloading will start immediately!"
+msgstr ""
+
+#: ext/fprofiles/views/panel.php:21
+msgid ""
+"Here you can load previously saved filters profile. After pressing on the "
+"load button, Posts Editor data reloading will start immediately!"
+msgstr ""
+
+#: views/wpbe.php:808
+msgid "Here you can select parent for the the new term (optionally)"
+msgstr ""
+
+#: views/wpbe.php:751
+msgid ""
+"Here you can type any title and save current columns set and their order. "
+"Type here any title and then press Save button OR press Enter button on your "
+"keyboard!"
+msgstr ""
+
+#: ext/fprofiles/views/panel.php:51
+msgid ""
+"Here you can type any title and save current filters set. Type here any "
+"title and then press Save button OR press Enter button on your keyboard!"
+msgstr ""
+
+#: views/wpbe.php:797
+msgid ""
+"Here you can write slug for the the new term (optionally). Use comma for "
+"slug(s) when you create some on the same time terms, or leave slug field "
+"empty to create slug(s) automatically"
+msgstr ""
+
+#: views/wpbe.php:786
+msgid ""
+"Here you can write title for the new term. Use comma to create some new tags "
+"on the same time! New terms with already existed names will not be created!"
+msgstr ""
+
+#: index.php:1178
+msgid ""
+"Hi! Are you enjoying using <i>WPBE – WordPress Posts Bulk Editor "
+"Professional</i>?"
+msgstr ""
+
+#: index.php:279
+msgid "Hide: Filters/Bulk Edit/Export"
+msgstr ""
+
+#: ext/history/history.php:29 ext/history/views/panel.php:7
+msgid "History"
+msgstr ""
+
+#: ext/history/history.php:48
+msgid "History clearing ..."
+msgstr ""
+
+#: ext/history/history.php:49
+msgid "History is cleared!"
+msgstr ""
+
+#: ext/history/views/list.php:114
+msgid "History is empty!"
+msgstr ""
+
+#: data/settings.php:11
+msgid ""
+"How many rows shows per page in tab Posts Editor. Max possible value is 100!"
+msgstr ""
+
+#: ext/info/views/panel.php:61
+#, php-format
+msgid "How to set the same value for some posts on the same time - %s"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://bulk-editor.pro/"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://pluginus.net/"
+msgstr ""
+
+#: index.php:1188
+msgid "I already did"
+msgstr ""
+
+#: ext/filters/filters.php:619
+msgid "ID"
+msgstr ""
+
+#: ext/filters/views/panel.php:140
+msgid "ID(s). Use comma or/and minus for range"
+msgstr ""
+
+#: ext/info/views/panel.php:47
+msgid ""
+"If to click on an empty space of the black wp-admin bar, it will get you "
+"back to the top of the page"
+msgstr ""
+
+#: ext/info/views/panel.php:104
+#, php-format
+msgid "If you have an idea you can %s"
+msgstr ""
+
+#: ext/info/views/panel.php:94
+#, php-format
+msgid ""
+"If you like WPBE %s about what you liked and what you want to see in future "
+"versions of the plugin"
+msgstr ""
+
+#: index.php:95
+#, php-format
+msgid "If you not familiar with the plugin, firstly %s please"
+msgstr ""
+
+#: ext/info/views/panel.php:51
+#, php-format
+msgid ""
+"If your site is on the Russian language you should install %s for the "
+"correct working of WPBE with Cyrillic"
+msgstr ""
+
+#: index.php:250
+msgid "ignore"
+msgstr ""
+
+#: ext/bulk/views/panel.php:230
+msgid "ignore case"
+msgstr ""
+
+#: views/elements/draw_gallery_popup_editor_btn.php:41
+#, php-format
+msgid "Images (%s)"
+msgstr ""
+
+#: ext/meta/views/panel.php:10
+msgid ""
+"In FREE version of the plugin it is possible manipulate with 2 meta fields."
+msgstr ""
+
+#: ext/history/views/panel.php:11
+msgid ""
+"In FREE version of the plugin it is possible to roll back 2 last operations."
+msgstr ""
+
+#: ext/bulk/bulk.php:79
+#, php-format
+msgid "In FREE version of the plugin you can change only next fields: %s"
+msgstr ""
+
+#: index.php:299
+msgid "In FREE version of the plugin you can create one profile only!"
+msgstr ""
+
+#: ext/bulk/views/panel.php:131
+msgid ""
+"In red containers wrapped fields which are not possible modify in bulk in "
+"FREE version of the plugin!"
+msgstr ""
+
+#: ext/bulk/views/panel.php:134
+msgid ""
+"In the case of an aborted bulk-operation you can roll back changes in the "
+"tab History"
+msgstr ""
+
+#: ext/bulk/bulk.php:84
+#, php-format
+msgid ""
+"In this mode to the all selected [%s](s) will be set the value of a [%s] "
+"field which been edited"
+msgstr ""
+
+#: ext/bulk/bulk.php:601 ext/bulk/bulk.php:622 ext/meta/meta.php:303
+msgid "increase by %"
+msgstr ""
+
+#: ext/bulk/bulk.php:599 ext/bulk/bulk.php:607 ext/bulk/bulk.php:620
+#: ext/bulk/bulk.php:632 ext/meta/meta.php:301 ext/bulk/views/panel.php:499
+msgid "increase by value"
+msgstr ""
+
+#: views/wpbe.php:311 views/wpbe.php:321 views/wpbe.php:329
+msgid "key"
+msgstr ""
+
+#: index.php:291
+msgid "Last"
+msgstr ""
+
+#: index.php:1176
+msgid "Later"
+msgstr ""
+
+#: ext/filters/filters.php:610 ext/meta/meta.php:196
+#: ext/filters/views/panel.php:129
+msgid "LIKE"
+msgstr ""
+
+#: views/wpbe.php:740 ext/fprofiles/views/panel.php:39
+msgid "load"
+msgstr ""
+
+#: data/settings.php:53
+msgid "Load beauty switchers"
+msgstr ""
+
+#: data/settings.php:54
+msgid "Load beauty switchers instead of checkboxes in the Posts Editor."
+msgstr ""
+
+#: index.php:256
+msgid "Loaded"
+msgstr ""
+
+#: index.php:255
+msgid "Loading"
+msgstr ""
+
+#: index.php:287
+msgid "Loading..."
+msgstr ""
+
+#: index.php:298
+msgid "Maybe term(s) with such name(s) already exists!"
+msgstr ""
+
+#: ext/bulk/views/panel.php:210 ext/bulk/views/panel.php:244
+msgid "MENU ORDER"
+msgstr ""
+
+#: data/fields.php:207
+msgid "Menu order"
+msgstr ""
+
+#: ext/bulk/bulk.php:629
+msgid "menu order"
+msgstr ""
+
+#: ext/filters/views/panel.php:244
+msgid "Menu order from"
+msgstr ""
+
+#: ext/filters/views/panel.php:249
+msgid "Menu order to"
+msgstr ""
+
+#: ext/meta/meta.php:28 ext/meta/views/panel.php:7
+msgid "Meta Fields"
+msgstr ""
+
+#: ext/meta/meta.php:50
+msgid "Meta key cannot be empty!"
+msgstr ""
+
+#: ext/meta/views/panel.php:29
+msgid "Meta quick search ..."
+msgstr ""
+
+#: ext/info/views/panel.php:123
+msgid "Minimal PHP version is"
+msgstr ""
+
+#: index.php:245 views/wpbe.php:310 views/wpbe.php:320 views/wpbe.php:401
+#: views/parts/post-upsells.php:20 ext/meta/views/panel.php:73
+msgid "move"
+msgstr ""
+
+#: views/elements/multi_select.php:42 ext/bulk/views/panel.php:218
+msgid "new"
+msgstr ""
+
+#: index.php:749
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: ext/fprofiles/views/panel.php:50
+msgid "New Filter Profile"
+msgstr ""
+
+#: ext/meta/meta.php:53
+msgid "New meta key"
+msgstr ""
+
+#: views/parts/advanced-table.php:20
+msgid "New Post"
+msgstr ""
+
+#: views/wpbe.php:750
+msgid "New Profile"
+msgstr ""
+
+#: views/wpbe.php:778
+#, php-format
+msgid "New term for [%s]"
+msgstr ""
+
+#: views/wpbe.php:785
+msgid "New Term(s)"
+msgstr ""
+
+#: index.php:292 ext/history/views/panel.php:88
+msgid "Next"
+msgstr ""
+
+#: data/fields.php:338 data/settings.php:39 data/settings.php:49
+#: data/settings.php:59 views/wpbe.php:573 views/wpbe.php:599
+#: ext/meta/meta.php:170 ext/meta/meta.php:330 ext/filters/views/panel.php:455
+msgid "No"
+msgstr ""
+
+#: views/wpbe.php:12
+msgid ""
+"No any post type permitted to edit for site editors. Ask please site "
+"administrators for details!"
+msgstr ""
+
+#: index.php:254
+msgid "no data"
+msgstr ""
+
+#: index.php:283
+msgid "No data available in the table"
+msgstr ""
+
+#: index.php:252 views/elements/draw_taxonomy_popup_btn.php:14
+#: views/elements/draw_attribute_list_btn.php:13
+msgid "no items"
+msgstr ""
+
+#: index.php:289
+msgid "No matching records found"
+msgstr ""
+
+#: ext/meta/meta.php:52
+msgid "No meta keys found!"
+msgstr ""
+
+#: classes/helper.php:343
+msgid "no rounding"
+msgstr ""
+
+#: index.php:1196
+msgid "No thanks"
+msgstr ""
+
+#: index.php:253
+msgid "none"
+msgstr ""
+
+#: index.php:1187
+msgid "Nope, maybe later"
+msgstr ""
+
+#: ext/filters/filters.php:612 ext/filters/views/panel.php:131
+msgid "NOT"
+msgstr ""
+
+#: views/elements/draw_restricked.php:7
+msgid "Not allowed!"
+msgstr ""
+
+#: ext/filters/views/panel.php:376
+msgid "Not empty"
+msgstr ""
+
+#: ext/meta/meta.php:198
+msgid "NOT EXACT (!=)"
+msgstr ""
+
+#: data/fields.php:316
+msgid ""
+"Not in bulk edit as there is no built-uploader here, so no sense change mime "
+"type. Filtering only! The function is designed specifically for attached "
+"records."
+msgstr ""
+
+#: ext/meta/meta.php:199
+msgid "NOT LIKE"
+msgstr ""
+
+#: index.php:1179
+msgid "Not really..."
+msgstr ""
+
+#: views/wpbe.php:343
+msgid ""
+"Note: if horizontal scroll disappeared when it must be visible, click on tab "
+"Posts Editor to make it visible"
+msgstr ""
+
+#: ext/export/views/panel.php:16
+#, php-format
+msgid ""
+"Note: you can change columns set and then set their order in the tab "
+"Settings, then save it as columns profile which in future will help you with "
+"exporting the [%s] data format quickly without necessary each time set "
+"columns order and their set!"
+msgstr ""
+
+#: ext/bulk/views/panel.php:128
+msgid "Notes"
+msgstr ""
+
+#: ext/meta/views/panel.php:98
+msgid "number"
+msgstr ""
+
+#: ext/bulk/views/panel.php:40
+msgid "numeric"
+msgstr ""
+
+#: ext/history/views/panel.php:87
+msgid "of"
+msgstr ""
+
+#: index.php:1186
+msgid "Okay, you deserve it"
+msgstr ""
+
+#: data/fields.php:134 data/fields.php:153
+msgid "Open"
+msgstr ""
+
+#: ext/bulk/views/panel.php:516
+msgid "other"
+msgstr ""
+
+#: views/wpbe.php:807
+msgid "Parent of the new term(s)"
+msgstr ""
+
+#: ext/bulk/bulk.php:552
+msgid "password"
+msgstr ""
+
+#: data/fields.php:194
+msgid "Password for private posts"
+msgstr ""
+
+#: index.php:280
+msgid "Per page"
+msgstr ""
+
+#: ext/history/views/panel.php:16
+msgid "Per page:"
+msgstr ""
+
+#: data/fields.php:146 ext/filters/views/panel.php:303
+msgid "Ping status"
+msgstr ""
+
+#: ext/bulk/bulk.php:581
+msgid "ping status"
+msgstr ""
+
+#: data/fields.php:315 ext/filters/views/panel.php:319
+msgid "Post mime type"
+msgstr ""
+
+#: data/fields.php:286
+msgid "Post parent"
+msgstr ""
+
+#: ext/bulk/bulk.php:617
+msgid "post parent"
+msgstr ""
+
+#: ext/filters/views/panel.php:258
+msgid "Post parent from"
+msgstr ""
+
+#: ext/filters/views/panel.php:263
+msgid "Post parent to"
+msgstr ""
+
+#: data/fields.php:193
+msgid "Post password"
+msgstr ""
+
+#: ext/bulk/bulk.php:563
+msgid "post status"
+msgstr ""
+
+#: data/fields.php:300
+msgid "Post type"
+msgstr ""
+
+#: ext/bulk/bulk.php:569
+msgid "post type"
+msgstr ""
+
+#: views/elements/draw_meta_popup_editor_btn.php:24
+#: views/elements/draw_upsells_popup_editor_btn.php:20
+#: views/elements/draw_upsells_popup_editor_btn.php:26
+#: views/elements/draw_gallery_popup_editor_btn.php:40
+#: views/elements/draw_gallery_popup_editor_btn.php:46
+#, php-format
+msgid "Post: %s"
+msgstr ""
+
+#: views/elements/draw_upsells_popup_editor_btn.php:21
+#, php-format
+msgid "Posts (%s)"
+msgstr ""
+
+#: ext/history/views/list.php:70
+#, php-format
+msgid "posts bulked: %s"
+msgstr ""
+
+#: index.php:302
+msgid "Posts checked"
+msgstr ""
+
+#: index.php:229 views/wpbe.php:65
+msgid "Posts Editor"
+msgstr ""
+
+#: index.php:674
+msgid "Posts not found!"
+msgstr ""
+
+#: views/wpbe.php:401 views/wpbe.php:420 views/wpbe.php:522
+#: ext/bulk/views/panel.php:115
+msgid "premium version"
+msgstr ""
+
+#: ext/bulk/views/panel.php:217
+msgid "prepend"
+msgstr ""
+
+#: views/wpbe.php:286
+msgid "Prepend array key/value"
+msgstr ""
+
+#: views/wpbe.php:287
+msgid "Prepend object set"
+msgstr ""
+
+#: ext/history/views/panel.php:86
+msgid "Prev"
+msgstr ""
+
+#: index.php:293
+msgid "Previous"
+msgstr ""
+
+#: index.php:288
+msgid "Processing..."
+msgstr ""
+
+#: ext/fprofiles/views/panel.php:20
+msgid "Profiles"
+msgstr ""
+
+#: views/wpbe.php:142
+msgid "Quick search"
+msgstr ""
+
+#: ext/filters/filters.php:635
+msgid "quick search by ..."
+msgstr ""
+
+#: views/wpbe.php:143
+msgid "Quick terms search by its name"
+msgstr ""
+
+#. Author of the plugin
+msgid "realmag777"
+msgstr ""
+
+#: ext/info/views/panel.php:122
+msgid "Recommended min RAM"
+msgstr ""
+
+#: ext/info/views/panel.php:124
+msgid "Recommended PHP version"
+msgstr ""
+
+#: views/wpbe.php:276
+msgid ""
+"REMEMBER: sequence of data maybe have sense (and maybe not), so be attentive!"
+" Do not mix in the same popup window data of array and object data!"
+msgstr ""
+
+#: views/wpbe.php:741 ext/bulk/views/panel.php:430
+#: ext/fprofiles/views/panel.php:40
+msgid "remove"
+msgstr ""
+
+#: views/wpbe.php:721
+msgid "remove current columns profile"
+msgstr ""
+
+#: ext/bulk/views/panel.php:219 ext/bulk/views/panel.php:429
+msgid "replace"
+msgstr ""
+
+#: views/wpbe.php:221
+msgid "Replace all posts images by the selected ones"
+msgstr ""
+
+#: ext/bulk/views/panel.php:235
+msgid "replace to text"
+msgstr ""
+
+#: ext/info/views/panel.php:120
+msgid "Requirements"
+msgstr ""
+
+#: ext/filters/views/panel.php:32 ext/history/views/panel.php:74
+msgid "Reset"
+msgstr ""
+
+#: views/parts/advanced-table.php:27
+msgid "Reset filters"
+msgstr ""
+
+#: index.php:270
+msgid "Reseted!"
+msgstr ""
+
+#: index.php:269
+msgid "Reseting"
+msgstr ""
+
+#: ext/history/views/list.php:93 ext/history/views/list.php:97
+msgid "revert"
+msgstr ""
+
+#: ext/history/history.php:46
+msgid "Reverted!"
+msgstr ""
+
+#: ext/history/history.php:45
+msgid "Reverting"
+msgstr ""
+
+#: ext/bulk/views/panel.php:229
+msgid "same case"
+msgstr ""
+
+#: ext/fprofiles/views/panel.php:73
+msgid "Save"
+msgstr ""
+
+#: views/elements/multi_select.php:37
+msgid "save"
+msgstr ""
+
+#: views/wpbe.php:492 views/wpbe.php:624
+msgid "Save all settings"
+msgstr ""
+
+#: ext/meta/views/panel.php:53
+msgid "Save meta fields"
+msgstr ""
+
+#: index.php:257
+msgid "Saved"
+msgstr ""
+
+#: index.php:258
+msgid "Saving"
+msgstr ""
+
+#: index.php:1126
+msgid "Scheduled"
+msgstr ""
+
+#: views/parts/advanced-table.php:45
+msgid "Scroll left"
+msgstr ""
+
+#: views/parts/advanced-table.php:44
+msgid "Scroll right"
+msgstr ""
+
+#: index.php:246
+msgid "Search"
+msgstr ""
+
+#: ext/info/views/panel.php:70
+msgid ""
+"Search by posts slugs, which are in non-latin symbols does not work because "
+"in the data base they are keeps in the encoded format!"
+msgstr ""
+
+#: index.php:1049
+msgid "see the post on the site"
+msgstr ""
+
+#: views/elements/multi_select.php:26
+msgid "Select all"
+msgstr ""
+
+#: views/wpbe.php:149
+msgid "Select all terms"
+msgstr ""
+
+#: views/parts/advanced-table.php:38
+msgid "select all variations"
+msgstr ""
+
+#: index.php:281
+msgid "Select background color"
+msgstr ""
+
+#: data/settings.php:17
+msgid "Select column by which posts sorting is going after plugin page loaded"
+msgstr ""
+
+#: ext/export/views/panel.php:46
+msgid "Select CSV data delimiter."
+msgstr ""
+
+#: ext/fprofiles/views/panel.php:29
+msgid "Select filter profile to load"
+msgstr ""
+
+#: ext/bulk/views/panel.php:316
+#, php-format
+msgid ""
+"Select how to round float values fractions in the numeric fields. Works for "
+"numeric meta fields. Read more %s."
+msgstr ""
+
+#: ext/bulk/views/panel.php:176 ext/bulk/views/panel.php:198
+#: ext/bulk/views/panel.php:291 ext/bulk/views/panel.php:410
+#: ext/bulk/views/panel.php:464 ext/bulk/views/panel.php:523
+#: ext/bulk/views/panel.php:565 ext/bulk/views/panel.php:606
+msgid "select it to use"
+msgstr ""
+
+#: ext/bulk/bulk.php:97
+msgid "Select post type you want to manage"
+msgstr ""
+
+#: views/wpbe.php:730
+msgid "Select profile to load"
+msgstr ""
+
+#: views/wpbe.php:107
+msgid "Select some columns in tab \"Settings\""
+msgstr ""
+
+#: data/settings.php:24
+msgid "Select sort direction for Default sort"
+msgstr ""
+
+#: index.php:282
+msgid "Select text color"
+msgstr ""
+
+#: ext/bulk/views/panel.php:532
+msgid "select thumbnail"
+msgstr ""
+
+#: ext/bulk/views/panel.php:325
+msgid "Selected num fields"
+msgstr ""
+
+#: views/wpbe.php:148
+msgid "selected only"
+msgstr ""
+
+#: data/fields.php:165
+msgid "Send trackbacks to"
+msgstr ""
+
+#: ext/bulk/bulk.php:556
+msgid "send trackbacks to"
+msgstr ""
+
+#: views/wpbe.php:565
+msgid "Separate columns and meta for post types"
+msgstr ""
+
+#: data/fields.php:166
+msgid ""
+"Separate multiple URLs with spaces. Ping status should be open! Remove 2 "
+"links separated by space, save. After opening you will not see links as they "
+"had been pinged! No sense for roll back, its sending is instant. Trackbacks "
+"are a way to notify legacy blog systems that you’ve linked to them. If you "
+"link other WordPress sites, they’ll be notified automatically using "
+"pingbacks, no other action necessary. Do not use these fields for something "
+"else. They are parsed many times in core code (69 matches for to_ping); "
+"their format is fixed."
+msgstr ""
+
+#: views/parts/advanced-table.php:13
+msgid "Set full width"
+msgstr ""
+
+#: ext/bulk/bulk.php:603 ext/bulk/bulk.php:610 ext/bulk/bulk.php:624
+#: ext/bulk/bulk.php:634 ext/meta/meta.php:300 ext/bulk/views/panel.php:498
+msgid "set new"
+msgstr ""
+
+#: ext/bulk/views/panel.php:470
+#, php-format
+msgid "Set: %s"
+msgstr ""
+
+#: views/wpbe.php:73
+msgid "Settings"
+msgstr ""
+
+#: ext/info/views/panel.php:107
+msgid "share it with us here"
+msgstr ""
+
+#: ext/export/export.php:30
+msgid "Should the export be started?"
+msgstr ""
+
+#: views/wpbe.php:384
+msgid "Show all columns"
+msgstr ""
+
+#: data/settings.php:44
+msgid "Show bigger thumbnail preview on mouse over"
+msgstr ""
+
+#: data/settings.php:34
+msgid ""
+"Show Bulk Editor button in admin bar for quick access to the Posts Editor"
+msgstr ""
+
+#: data/settings.php:33
+msgid "Show button in admin bar"
+msgstr ""
+
+#: views/wpbe.php:591
+msgid "Show content and excerpt text partly"
+msgstr ""
+
+#: views/wpbe.php:643
+msgid "Show description"
+msgstr ""
+
+#: views/wpbe.php:612
+msgid "Show part of the text in the content and excerpt edit button"
+msgstr ""
+
+#: data/settings.php:43
+msgid "Show thumbnail preview"
+msgstr ""
+
+#: index.php:278 views/parts/top_panel.php:24
+msgid "Show: Filters/Bulk Edit/Export"
+msgstr ""
+
+#: index.php:285
+msgid "Showing 0 to 0 of 0 entries"
+msgstr ""
+
+#: index.php:284
+msgid "Showing _START_ to _END_ of _TOTAL_ entries"
+msgstr ""
+
+#: views/wpbe.php:552
+msgid "Site editors post types"
+msgstr ""
+
+#: data/fields.php:100
+msgid "Slug"
+msgstr ""
+
+#: ext/bulk/bulk.php:548
+msgid "slug"
+msgstr ""
+
+#: views/wpbe.php:796
+msgid "Slug(s) of the new term"
+msgstr ""
+
+#: ext/history/views/panel.php:34
+msgid "solo operations"
+msgstr ""
+
+#: ext/info/views/panel.php:44
+msgid "Some little hints"
+msgstr ""
+
+#: ext/info/views/panel.php:130
+msgid "Some useful plugins for your site"
+msgstr ""
+
+#: ext/history/views/list.php:33
+#, php-format
+msgid "state: %s"
+msgstr ""
+
+#: data/fields.php:114
+msgid "Status"
+msgstr ""
+
+#: ext/bulk/views/panel.php:55
+msgid "statuses and types"
+msgstr ""
+
+#: data/fields.php:331
+msgid "Stick this post to the front page"
+msgstr ""
+
+#: data/fields.php:330
+msgid "Sticky"
+msgstr ""
+
+#: ext/filters/views/panel.php:336
+msgid "Sticky posts"
+msgstr ""
+
+#: ext/bulk/bulk.php:590
+msgid "sticky posts"
+msgstr ""
+
+#: ext/meta/views/panel.php:97
+msgid "string"
+msgstr ""
+
+#: index.php:262
+msgid "Sure?"
+msgstr ""
+
+#: ext/bulk/bulk.php:47
+#, php-format
+msgid "Sure? Delete [%s]?"
+msgstr ""
+
+#: ext/bulk/views/panel.php:376
+msgid "taxonomies"
+msgstr ""
+
+#: ext/bulk/views/panel.php:105
+msgid "terminate bulk operation"
+msgstr ""
+
+#: ext/info/info.php:20 ext/fprofiles/fprofiles.php:27
+msgid "test"
+msgstr ""
+
+#: ext/bulk/views/panel.php:23
+msgid "text"
+msgstr ""
+
+#: index.php:277
+msgid "Text search by title or SKU"
+msgstr ""
+
+#: ext/meta/views/panel.php:87
+msgid "textarea"
+msgstr ""
+
+#: ext/meta/views/panel.php:86
+msgid "textinput"
+msgstr ""
+
+#: index.php:1183
+#, php-format
+msgid ""
+"That's awesome! Could you please do us a BIG favor and give it a 5-star "
+"rating on %s to help us spread the word and boost our motivation?"
+msgstr ""
+
+#: index.php:295
+#, php-format
+msgid ""
+"the filtered [%s]. To remove filtering press reset button on the tools panel "
+"below"
+msgstr ""
+
+#: ext/info/views/panel.php:12
+#, php-format
+msgid ""
+"The plugin has next info: %s, %s, %s. Also if you have troubles you can %s!"
+msgstr ""
+
+#: index.php:296
+#, php-format
+msgid "the selected [%s](s)"
+msgstr ""
+
+#: index.php:301
+msgid "This field is deactivated in FREE version for bulk edit!"
+msgstr ""
+
+#: index.php:251
+msgid "This is not deletable!"
+msgstr ""
+
+#: ext/bulk/views/panel.php:139 ext/info/views/panel.php:53
+msgid "this plugin"
+msgstr ""
+
+#: data/fields.php:52 ext/filters/views/panel.php:376
+msgid "Thumbnail"
+msgstr ""
+
+#: ext/bulk/views/panel.php:136
+#, php-format
+msgid ""
+"Time by time (one time per week for example) - make the backup of your site "
+"database. For example by %s"
+msgstr ""
+
+#: ext/bulk/views/panel.php:208 ext/bulk/views/panel.php:242
+msgid "TITLE"
+msgstr ""
+
+#: data/fields.php:65 ext/filters/filters.php:618
+msgid "Title"
+msgstr ""
+
+#: ext/bulk/bulk.php:536
+msgid "title"
+msgstr ""
+
+#: ext/info/views/panel.php:84
+msgid ""
+"To select range of posts using checkboxes - select first post, press SHIFT "
+"key on your PC keyboard and click last post."
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Tools for managing and bulk edit posts, pages and all custom types data in "
+"the reliable and flexible way! Be professionals with managing data of your "
+"site!"
+msgstr ""
+
+#: ext/info/views/panel.php:18
+msgid "translations"
+msgstr ""
+
+#: views/parts/advanced-table.php:26
+msgid "Uncheck all selected posts"
+msgstr ""
+
+#: views/wpbe.php:851
+msgid "UPGRADE TO FULL VERSION"
+msgstr ""
+
+#: index.php:273
+msgid "Upload file"
+msgstr ""
+
+#: index.php:271
+msgid "Upload image"
+msgstr ""
+
+#: index.php:272
+msgid "Upload images"
+msgstr ""
+
+#: ext/info/views/panel.php:80
+msgid ""
+"Use Enter keyboard button in the Posts Editor for moving to the next posts "
+"row cell with saving of changes while edit textinputs. Use arrow Up or arrow "
+"Down keyboard buttons in the Posts Editor for moving to the next/previous "
+"posts row without saving of changes."
+msgstr ""
+
+#: views/wpbe.php:312 views/wpbe.php:330
+msgid "value"
+msgstr ""
+
+#: ext/history/views/list.php:63
+#, php-format
+msgid "value been: %s"
+msgstr ""
+
+#: ext/bulk/views/panel.php:207 ext/bulk/views/panel.php:241
+msgid "variable"
+msgstr ""
+
+#: index.php:502
+msgid "View the post on the site front"
+msgstr ""
+
+#: views/wpbe.php:419
+msgid "visible for the site editor"
+msgstr ""
+
+#: index.php:96
+msgid "visit this page"
+msgstr ""
+
+#: ext/history/history.php:47
+msgid "Wait please while data reverting is going!"
+msgstr ""
+
+#: index.php:1193
+msgid ""
+"We are sorry to hear you aren't enjoying WPBE. We would love a chance to "
+"improve it. Could you take a minute and let us know what we can do better?"
+msgstr ""
+
+#: views/wpbe.php:560
+msgid ""
+"What post types can edit site editors in the tab Posts Editor. Use comma, "
+"example: post,car,page"
+msgstr ""
+
+#: ext/bulk/bulk.php:46
+msgid "Will be edited next:"
+msgstr ""
+
+#: views/elements/draw_calendar.php:9
+msgid ""
+"Will never reset published date, and for modified date field  will set "
+"current time!"
+msgstr ""
+
+#: views/wpbe.php:856 views/wpbe.php:857
+msgid "WOOBE - WooCommerce Bulk Editor Professional"
+msgstr ""
+
+#: ext/history/views/panel.php:8
+msgid "Works for edit-operations and not work with delete-operations!"
+msgstr ""
+
+#: views/wpbe.php:852
+msgid "WPBE - Posts Bulk Editor Professional"
+msgstr ""
+
+#. Name of the plugin
+msgid "WPBE - WordPress Posts Bulk Editor and Posts Manager Professional"
+msgstr ""
+
+#: index.php:113 index.php:124
+msgid "WPBE Bulk Editor"
+msgstr ""
+
+#: ext/history/history.php:106 ext/history/history.php:135
+msgid ""
+"WPBE cannot create the database table! Make sure that your mysql user has "
+"the CREATE privilege! Do it manually using your host panel phpmyadmin!"
+msgstr ""
+
+#: views/wpbe.php:861 views/wpbe.php:862
+msgid "WPCS - WordPress Currency Switcher"
+msgstr ""
+
+#: ext/info/views/panel.php:97
+msgid "write us feedback please"
+msgstr ""
+
+#: data/fields.php:337 data/settings.php:38 data/settings.php:48
+#: data/settings.php:58 views/wpbe.php:574 views/wpbe.php:600
+#: ext/meta/meta.php:169 ext/meta/meta.php:329 ext/filters/views/panel.php:454
+msgid "Yes"
+msgstr ""
+
+#: index.php:1179
+msgid "Yes, I love it"
+msgstr ""
+
+#: index.php:297
+#, php-format
+msgid ""
+"You can reset selection of the [%s](s) by its reset button on the panel of "
+"the editor OR uncheck them manually!"
+msgstr ""
+
+#: ext/fprofiles/views/panel.php:65
+msgid ""
+"You can save filter profile only when you applying filters to the posts."
+msgstr ""
+
+#: ext/bulk/views/panel.php:359
+msgid ""
+"You can select numeric field then make math operation with another numeric "
+"field using [+ - * /] value"
+msgstr ""
+
+#: views/wpbe.php:37
+msgid "Your settings have been saved."
+msgstr ""

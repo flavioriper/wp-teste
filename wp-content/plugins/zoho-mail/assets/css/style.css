@@ -1,0 +1,172 @@
+@font-face {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    src: local("Lato Regular"), local("Lato-Regular"), url(https://webfonts.zohostatic.com/latoregular/font.woff) format("woff"), url(https://webfonts.zohostatic.com/latoregular/font.woff2) format("woff")
+}
+
+@font-face {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 700;
+    src: local("Lato Bold"), local("Lato-Bold"), url(https://webfonts.zohostatic.com/latobold/font.woff) format("woff"), url(https://webfonts.zohostatic.com/latobold/font.woff2) format("woff")
+}
+
+@font-face {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    src: local("Lato Black"), local("Lato-Black"), url(https://webfonts.zohostatic.com/latoblack/font.woff) format("woff"), url(https://webfonts.zohostatic.com/latoblack/font.woff2) format("woff")
+}
+
+@font-face {
+    font-family: Lato;
+    font-style: italic;
+    font-weight: 400;
+    src: local("Lato Italic"), local("Lato-Italic"), url(https://webfonts.zohostatic.com/latoitalic/font.woff) format("woff"), url(https://webfonts.zohostatic.com/latoitalic/font.woff2) format("woff")
+}
+
+html,
+
+.zm_a {
+    color: #3db0d6
+}
+
+.page {
+    background: #fff;
+    position: relative;
+    white-space: nowrap
+}
+
+.page__content {
+    padding: 100px 50px;
+    width: 500px;
+    margin: 0 auto;
+    vertical-align: middle;
+    white-space: normal
+}
+
+.page__header {
+    margin-bottom: 35px
+}
+
+.page__header h1 {
+    margin-top: 0;
+    font-size: 24px;
+    font-weight: 900
+}
+
+.page__header p {
+    font-size: 13px;
+    color: #7e7e7e
+}
+
+.page__header img {
+    vertical-align: bottom
+}
+
+.form__row {
+    margin-top: 15px
+}
+
+.form__row-info {
+    font-size: 12px;
+    color: #7e7e7e
+}
+
+.form__row-btn {
+    margin-top: 30px
+}
+
+.form--label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 700
+}
+
+.form--input {
+    width: 100%;
+    border: solid 1px #979797;
+    border-radius: 3px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    background-color: #fff;
+    font-size: 14px;
+    padding: 8px;
+    box-sizing: border-box
+}
+
+.form--input:focus,
+.form--input:hover {
+    border-color: #4a90e2;
+    outline: 0 none
+}
+
+.form--input--select {
+    padding-right: 30px;
+    background-image: url("../images/dropdown.png");
+    background-repeat: no-repeat;
+    background-position: right center
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4c84ff;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 3px;
+    border:0px;
+    cursor: pointer;
+    transition: all 0.3s ease
+}
+
+.btn+.btn {
+    margin-left: 12px
+}
+
+.btn:hover {
+    background-color: #3673f9
+}
+
+.ico-send {
+    display: inline-block;
+    width: 35px;
+    height: 25px;
+    background: url("../images/send.png") no-repeat;
+    background-size: contain
+}
+
+    .form__domain {
+        border: solid 1px #979797;
+        border-radius: 4px;
+        display: flex;
+        padding: 8px 8px;
+        width: 500px;
+        font-size: 14px;
+        line-height: 1;
+        box-sizing: border-box;
+    }
+    .form__domain-info {
+        flex: 0 0 auto;
+    }
+    .form__domain-value {
+        flex: 1;
+        border: 0;
+        background-color: transparent !important;
+        padding-left: 0 !important;        
+        font-size: 14px;
+        margin-left: -3px;
+        line-height: 1 !important;
+        min-height: 12px !important;
+        max-width: 100% !important;
+    }
+    .form__domain-value:focus {
+        outline: 0 none;
+        border-color: transparent !important;
+        box-shadow: none !important;
+    }
+
